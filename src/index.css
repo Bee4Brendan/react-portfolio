@@ -9,7 +9,9 @@
 }
 
 :root {
-    --primary-hue: 270;
+    /* Started as purple, I made it Cyan 
+    --primary-hue: 270;*/
+    --primary-hue: 180;
     --black-lightness: 15%;
     --dark-lightness: 44%;
     --light-lightness: 94%;
