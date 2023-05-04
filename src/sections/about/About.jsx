@@ -1,5 +1,5 @@
 import AboutImage from '../../assets/about.jpg'
-import Resume from '../../assets/brendansresume.docx'
+import Resume from '../../assets/brendansresume.pdf'
 import {HiDownload} from 'react-icons/hi'
 import data from './data'
 import Card from '../../components/Card'
@@ -11,7 +11,7 @@ const About = () => {
         <div className="container about__container">
             <div className="about__left">
                 <div className="about__portrait">
-                    <img src={AboutImage} alt="About Image" />
+                    <img src={AboutImage} alt="About Image" title="This photo is pretty old" />
                 </div>
             </div>
             <div className="about__right">
