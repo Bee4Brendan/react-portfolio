@@ -9,7 +9,7 @@ const Header = () => {
         <div className="header__profile">
           <img src={HeaderImage} alt="Header Portait" />
         </div>
-        <h2>Brendan Bryan</h2>
+        <h3>Brendan Bryan</h3>
         <p>
         I'm not a typical Software Developer. As a professional Computer Scientist with a passion for art, I am constantly striving to excel at melding those two worlds. Coding and design are my forte, always with an eye for detail.  
         </p>

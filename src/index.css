@@ -83,7 +83,6 @@ a {
 
 /* GENERAL HEADING STYLES */
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Kanit', sans-serif;
     line-height: 1.1;
     color: var(--color-black);
 }
@@ -93,11 +92,13 @@ h1 {
 }
 
 h2 {
-    font-size: 2rem;
+    font-size: 3rem;
+    font-family: 'Bebas Neue', cursive;
 }
 
 h3 {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
+    font-family: 'Press Start 2P', cursive;
 }
 
 h4 {
