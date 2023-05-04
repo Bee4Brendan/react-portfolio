@@ -11,7 +11,7 @@ const Header = () => {
         </div>
         <h2>Brendan Bryan</h2>
         <p>
-        You have entered the Bee Hive... where you may take a glimpse through the window of my story. 
+        I'm not a typical Software Developer. As a professional Computer Scientist with a passion for art, I am constantly striving to excel at melding those two worlds. Coding and design are my forte, always with an eye for detail.  
         </p>
         <div className="header__cta">
           <a href="#contact" className='btn primary'>Let's Talk</a>

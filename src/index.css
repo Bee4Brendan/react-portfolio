@@ -83,6 +83,7 @@ a {
 
 /* GENERAL HEADING STYLES */
 h1, h2, h3, h4, h5, h6 {
+    font-family: 'Kanit', sans-serif;
     line-height: 1.1;
     color: var(--color-black);
 }
@@ -104,7 +105,7 @@ h4 {
 }
 
 h5 {
-    font-size: 0.95rem;
+    font-size: 1rem;
 }
 
 h6 {
