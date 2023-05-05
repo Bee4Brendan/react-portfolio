@@ -7,21 +7,25 @@ import Testimonials from './sections/testimonials/Testimonials';
 import FAQs from './sections/faqs/FAQs';
 import Contact from './sections/contact/Contact';
 import Footer from './sections/footer/Footer';
-import FloatingNav from './sections/floating-nav/FloatingNav';
+import Theme from './theme/Theme';
+import { useThemeContext } from './context/theme-context';
 
 const App = () => {
+  const {themeState} = useThemeContext();
+
   return (
-    <main>
-      <Navbar/>
-      <Header/>
-      <About/>
-      <Services/>
-      <Portfolio/>
-      <Testimonials/>
-      <FAQs/>
-      <Contact/>
-      <Footer/>
-      <FloatingNav/>
+    <main className={`${themeState.primary} ${themeState.background}`}>
+        <Navbar/>
+        <Header/>
+        <About/>
+        <Services/>
+        <Portfolio/>
+        <Testimonials/>
+        <FAQs/>
+        <Contact/>
+        <Footer/>
+        <Theme/>
+        {/* <FloatingNav/> */}
     </main>
   )
 }

@@ -28,9 +28,6 @@ const About = () => {
                     }
                 </div>
                 <p>
-                Generally, I thrive at problem solving with creative solutions and enjoy using my visual artistic abilities to aid me in developing <i>Great</i> looking content. It is the balance of art and science that fuels my passion to create work efficiently as well as beautifully! 
-                </p>
-                <p>
                 Hi, my name is <mark>Brendan Bryan</mark> from Bethany, Oklahoma. I'm a Software Developer/Designer with a Bachelors degree in Computer Science from the ABET-accredited program at the <i>University of Central Oklahoma</i>. 
                 </p>
                 <p>
