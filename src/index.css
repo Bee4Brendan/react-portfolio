@@ -154,11 +154,13 @@ h3 {
 }
 
 h4 {
-    font-size: 1.1rem;
+    font-size: 1rem;
+    font-family: 'Press Start 2P', cursive;
 }
 
 h5 {
-    font-size: 1rem;
+    font-size: .8rem;
+    font-family: 'Press Start 2P', cursive;
 }
 
 h6 {
