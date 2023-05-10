@@ -28,16 +28,10 @@ const About = () => {
                     }
                 </div>
                 <p>
-                Hi, my name is <mark>Brendan Bryan</mark> from Bethany, Oklahoma. I'm a Software Developer/Designer with a Bachelors degree in Computer Science from the ABET-accredited program at the <i>University of Central Oklahoma</i>. 
-                </p>
-                <p>
-                In my decade long career as a Computer Scientist, I have accumulated experience with C#, .NET, WPF, C++, C, CSS, Java, JavaScript, .NET, SQL, XML, XAML, PHP, HTML, Vagrant, Packer, Azure Devops Server, TFS, Jira, Visual Studio, GitHub, Eclipse, Git, & More... 
+                In my decade long career as a Computer Scientist, I have accumulated experience with .NET, Android, Azure, Bash, C, CSS, C#, C++, Eclipse, Git, Github, HTML, Java, JavaScript, Jira, Packer, PHP, SQL, TFS, Visual Studio, WPF, XML, XAML & More... 
                 </p>
                 <p>
                 I have designed, developed, and tested code that is currently running on the Boeing E-3 Sentry <strong>AWACS</strong> as well as flight simulations for the Boeing E-6B Mercury <strong>TACAMO</strong> in just a few, short years. There is no part of the Software Development Life Cycle that I have not participated in. 
-                </p>
-                <p>
-                If you like what you see, check out my resumé for more details!
                 </p>
                 <a href={Resume} download className='btn primary'>Download Resumé <HiDownload/></a>
             </div>
