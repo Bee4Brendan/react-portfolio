@@ -1,7 +1,7 @@
 import Navbar from './sections/navbar/Navbar';
 import Header from './sections/header/Header';
 import About from './sections/about/About';
-import Services from './sections/services/Services';
+import Roles from './sections/roles/Roles';
 import Portfolio from './sections/portfolio/Portfolio';
 import Testimonials from './sections/photography/Testimonials';
 import FAQs from './sections/faqs/FAQs';
@@ -18,7 +18,7 @@ const App = () => {
         <Navbar/>
         <Header/>
         <About/>
-        <Services/>
+        <Roles/>
         <Portfolio/>
         <Testimonials/>
         <FAQs/>
