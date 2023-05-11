@@ -18,7 +18,7 @@ import './testimonials.css'
 const Testimonials = () => {
   return (
     <section id="testimonials">
-      <h2>Bee4Brendan Photography</h2>
+      <h2>Best of Bee4Brendan Photography</h2>
       <p>
         "Vision is the art of seeing what is invisible to others"
       </p>
