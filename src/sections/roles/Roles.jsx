@@ -6,7 +6,7 @@ const Services = () => {
   return (
     <section id="services">
       <h2>Previous Roles</h2>
-      <p>I have experience in all of these areas.</p>
+      <p>I have experience in all of these areas, but I'm still expanding.</p>
       <div className="container services__container">
         {
           data.map(item => (
