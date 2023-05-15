@@ -25,7 +25,7 @@ const Portfolio = () => {
     <section id="portfolio">
       <h2>Projects</h2>
       <p>
-      These are projects from school at the University of Central Oklahoma. Unfortunately, a lot of the projects I have worked on cannot be disclosed due to Security Classification or Non-Disclosure Agreements. Use the buttons to toggle the different categories.
+      These are mostly projects from school at the University of Central Oklahoma. Unfortunately, a lot of the projects I have worked on cannot be disclosed due to Security Classification or Non-Disclosure Agreements. Use the buttons to toggle the different categories.
       </p>
       <div className="container portfolio__container">
         <ProjectsCategories categories={uniqueCategories} onFilterProjects={filterProjectsHandler}/>

@@ -4,6 +4,7 @@ import Image3 from '../../assets/project3.jpg'
 import Image4 from '../../assets/project4.jpg'
 import Image5 from '../../assets/project5.jpg'
 import Image6 from '../../assets/project6.jpg'
+import Image7 from '../../assets/project7.jpg'
 
 const data = [
     {
@@ -20,7 +21,7 @@ const data = [
         category: 'Android Utility App',
         image: Image3,
         title: "Contacts App",
-        desc: "This is a Contacts app created for Android. It can launch emails and deliver notifications to direct the user to UCO department websites.",
+        desc: "This is a Contacts app created for Android. It can launch emails and deliver notifications to direct the user to UCO department websites as well as store important user information.",
         demo: 'https://youtu.be/mmzWqgDsBnk',
         github: 'https://github.com/bee4brendan'
     },
@@ -29,7 +30,7 @@ const data = [
         category: 'Android Game',
         image: Image2,
         title: "Cannot Stop",
-        desc: "Android Mobile Application designed to play like the Doodle Jump game. I designed the Highscores section as well as implementing the logic for gyroscope and accelerometer sensors. Also, I designed much of the GUI.",
+        desc: "Android Mobile Application designed to play like the Doodle Jump game. I designed the Highscores + Main section as well as implementing the logic for gyroscope and accelerometer sensors.",
         demo: 'https://youtu.be/aJlRW58MZUw?t=136',
         github: 'https://github.com/bee4brendan'
     },
@@ -59,6 +60,15 @@ const data = [
         desc: "This is a website portfolio built from the ground up, showcasing my personal and professional achievements in Computer Science.",
         demo: 'https://youtu.be/aCnGlp8CtFM',
         github: 'https://github.com/Bee4Brendan/react-portfolio'
+    },
+    {
+        id: 7,
+        category: 'Robotics',
+        image: Image7,
+        title: "Lego Robot",
+        desc: "This is a robot that we programmed to follow certain directions. One of my parts was basically programming a Roomba before Roombas.",
+        demo: 'https://youtu.be/tjNV6xjEO6g?t=58',
+        github: 'https://github.com/Bee4Brendan/'
     }
 ]
 
