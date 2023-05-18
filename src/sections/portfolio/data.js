@@ -48,7 +48,7 @@ const data = [
         category: 'Android Game',
         image: Image5,
         title: "Baseball Number Game",
-        desc: "This is an interesting game called Baseball, where the user is supposed to guess the numbers in the given 'Key'. A ball is where you guess the correct number in the wrong location. A strike is guessing the correct number in the correct location. Kind of like Wordle with numbers!",
+        desc: "This is an interesting game called Baseball, where the user is supposed to guess the numbers in the given 'Key'. Kind of like Wordle with numbers!",
         demo: 'https://youtu.be/fLsn16twFJw',
         github: 'https://github.com/bee4brendan'
     },

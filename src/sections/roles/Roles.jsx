@@ -7,7 +7,7 @@ const Services = () => {
     <section id="services">
       <h2>Previous Roles</h2>
       <p>I have experience in all of these areas, but I'm still expanding and eager to learn!</p>
-      <div className="container services__container">
+      <div className="container services__container" data-aos="fade-up">
         {
           data.map(item => (
             <Card key={item.id} className="service light">

@@ -27,7 +27,7 @@ const Portfolio = () => {
       <p>
       These are mostly projects from school at the University of Central Oklahoma. Unfortunately, a lot of the projects I have worked on cannot be disclosed due to Security Classification or Non-Disclosure Agreements. Use the buttons to toggle the different categories.
       </p>
-      <div className="container portfolio__container">
+      <div className="container portfolio__container" data-aos="fade-up">
         <ProjectsCategories categories={uniqueCategories} onFilterProjects={filterProjectsHandler}/>
         <Projects projects={projects}/>
       </div>
