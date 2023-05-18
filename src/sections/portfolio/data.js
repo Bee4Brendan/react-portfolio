@@ -18,7 +18,7 @@ const data = [
     },
     {
         id: 3,
-        category: 'Android Utility App',
+        category: 'Android Utility',
         image: Image3,
         title: "Contacts App",
         desc: "This is a Contacts app created for Android. It can launch emails and deliver notifications to direct the user to UCO department websites as well as store important user information.",
@@ -36,7 +36,7 @@ const data = [
     },
     {
         id: 4,
-        category: 'Android Utility App',
+        category: 'Android Utility',
         image: Image4,
         title: "Weather App",
         desc: "This Android Mobile Application allows the user to search for different cities to see the current weather for the area. There are also buttons to launch a map of the city!",
