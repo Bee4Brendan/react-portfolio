@@ -6,7 +6,7 @@ import {AiFillAppstore} from 'react-icons/ai'
 
 const data = [
     {
-        id: 1, icon: <AiFillAppstore/>, title: 'Desktop Software', desc: "Long Wave Inc. - Developed a flight simulator for training Boeing E-6B Mercury pilots. This was for Windows, in C# .NET."
+        id: 1, icon: <AiFillAppstore/>, title: 'Desktop Application Development', desc: "Long Wave Inc. - Developed a flight simulator for training Boeing E-6B Mercury pilots. This was for Windows, in C# .NET. & WPF. The simulator included an entire Operating System rebuild."
     },
     {
         id: 2, icon: <SiXaml/>, title: 'Frontend Development', desc: "UCO + Long Wave Inc. - Designed and recreated frontend for Android applications and WPF in XAML. This website was designed by me as well!"
