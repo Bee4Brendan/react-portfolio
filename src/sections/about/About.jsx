@@ -1,4 +1,4 @@
-import AboutImage from '../../assets/about.jpg'
+import AboutImage from '../../assets/selfie1.jpg'
 import Resume from '../../assets/brendansresume.pdf'
 import {HiDownload} from 'react-icons/hi'
 import data from './data'

@@ -2,7 +2,7 @@ const data = [
     {
       id: 1,
       question: "What programming language are you most confident in?",
-      answer: "I would say that C# is my favorite because of the readability and how easy it is to maintain."
+      answer: "I would say that C# is my favorite because of the readability and how easy it is to maintain. Java is close behind."
     },
     {
       id: 2,
