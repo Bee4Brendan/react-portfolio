@@ -14,7 +14,7 @@ const Header = () => {
     <header id="header">
       <div className="container header__container">
         <div className="header__profile" data-aos="fade-in">
-          <img src={HeaderImage} alt="Header Portait" />
+          <img src={HeaderImage} alt="Header Portait" title="I'm not shady, the sun was in my eyes" />
         </div>
         <h3 data-aos="fade-up">Brendan Bryan</h3>
         <p data-aos="fade-up">
@@ -25,6 +25,7 @@ const Header = () => {
           <a href="#portfolio" className='btn light'>My Work</a>
         </div>
         <div className="header__socials">
+        <h4 data-aos="fade-up">@Bee4Brendan</h4>
           {
             data.map(item => <a key={item.id} href={item.link} target="_blank" rel="noopener noreferrer">{item.icon}</a>)
           }

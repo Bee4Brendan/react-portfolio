@@ -2,12 +2,12 @@ const data = [
     {
       id: 1,
       question: "What programming language are you most confident in?",
-      answer: "I would say that C# is my favorite because of the readability and how easy it is to maintain. Java is close behind."
+      answer: "I would say that C# is my favorite because of the readability, longevity, and powerful framework support, such as .NET and MAUI. Java is a close second, but with a foundational knowledge in C, I can expand in any direction."
     },
     {
       id: 2,
       question: "Where did the name Bee4Brendan come from?",
-      answer: "It's really just kind of a simple play on words with the letter 'B' and the insect, Bee. Bees are important for the planet, but my name also starts with B."
+      answer: "It's really just kind of a simple play on words with the letter 'B' and the insect, Bee. Bees are important for the planet, but my name also starts with 'B'."
     },
     {
       id: 5,
@@ -17,7 +17,7 @@ const data = [
     {
       id: 4,
       question: "What is your current objective?",
-      answer: "Right now, I am looking to find a place where my well-rounded experience will be appreciated. While the front-end is my biggest strength, I haven't been able to let my creativity flow in this area as much as I would like.  "
+      answer: "Right now, I am looking to find a place where my well-rounded experience will be appreciated. While the front-end is my biggest strength, I haven't been able to let my creativity flow in this area as much as I would like."
     },
     // {
     //   id: 3,
