@@ -19,11 +19,11 @@ const data = [
       question: "What is your current objective?",
       answer: "Right now, I am looking to find a place where my well-rounded experience will be appreciated. While the front-end is my biggest strength, I haven't been able to let my creativity flow in this area as much as I would like."
     },
-    // {
-    //   id: 3,
-    //   question: "?",
-    //   answer: ""
-    // },
+    {
+       id: 3,
+       question: "Why did you choose Computer Science?",
+       answer: "Growing up, I was naturally gifted at math and science. My visual-oriented mind along with an overwhelming curiosity helped me achieve good grades in these areas. A passion for art and photography gave me a special interest in front-end development, web development, and game design. "
+     },
     // {
     //   id: 6,
     //   question: "?",
