@@ -75,6 +75,11 @@
     .about__right h2 {
         text-align: center;
     }
+
+    .about__right .btn {
+        margin-left:auto;
+        margin-right:auto;
+    }
 }
 
 
@@ -87,6 +92,8 @@
 
 .about__right .btn {
     margin-top: 2rem;
+    margin-left:auto;
+    margin-right:auto;
 }
 
 }
