@@ -60,6 +60,24 @@
     font-size: medium;
 }
 
+.art__vision{
+    text-align: center;
+    font-size: medium;
+    color: gray;
+}
+
+.cyan__vision{
+    text-align: center;
+    font-size: medium;
+    color: cyan;
+}
+
+.art__vision{
+    text-align: center;
+    font-size: medium;
+    color: cyan;
+}
+
 
 
 /* MEDIA QUERIES (tablets) */

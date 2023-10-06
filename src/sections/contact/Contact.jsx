@@ -6,7 +6,7 @@ const Contact = () => {
     <section id="contact">
       <h2>Get In Touch</h2>
       <p>
-        Send me a message via Email or Facebook Messenger below! You can also find me on Instagram, YouTube, GitHub, and LinkedIn.
+        Send me a message via Email or Facebook Messenger below! <br/> You can also find me on Instagram, YouTube, GitHub, and LinkedIn at the bottom 
       </p>
       <div className="container contact__container" data-aos="fade-up">
         {

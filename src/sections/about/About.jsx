@@ -34,7 +34,7 @@ const About = () => {
                 I have designed, developed, and tested code that is currently running on the Boeing E-3 Sentry <strong>AWACS</strong> as well as flight simulations for the Boeing E-6B Mercury <strong>TACAMO</strong> in just a few, short years. There is no part of the Software Development Life Cycle that I have not participated in. 
                 </p>
                 <h3 className="vision">
-                "VISION IS THE ART OF SEEING WHAT IS INVISIBLE TO OTHERS"
+                "VISION IS THE <a href="#testimonials"><h3 className="art__vision" >ART</h3></a> OF SEEING WHAT IS INVISIBLE TO OTHERS"
                 </h3>
                 <a href={Resume} download className='btn primary'>Download Resumé <HiDownload/></a>
             </div>

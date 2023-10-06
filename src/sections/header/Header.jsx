@@ -18,7 +18,9 @@ const Header = () => {
         </div>
         <h3 data-aos="fade-up">Brendan Bryan</h3>
         <p data-aos="fade-up">
-        I'm not a typical Software Developer. As a professional Computer Scientist with a passion for art, I am constantly striving to excel at melding those two worlds. Coding and design are my forte, always with an Eye for detail.  
+        I'm not a typical Software Developer. As a Professional Computer Scientist <br/> 
+        with a passion for art, I am constantly striving to excel at melding those <br/>
+        two worlds. Coding and design are my forte, always with an Eye for detail.  
         </p>
         <div className="header__cta" data-aos="fade-up">
           <a href="#contact" className='btn primary'>Let's Talk</a>

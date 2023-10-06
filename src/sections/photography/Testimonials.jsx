@@ -20,7 +20,7 @@ const Testimonials = () => {
     <section id="testimonials">
       <h2>Best of Bee4Brendan Photography</h2>
       <p>
-        "Vision is the art of seeing what is invisible to others"
+      A memory is a photograph taken by the heart to make a special moment last eternally. 
       </p>
       <div className="container">
       <Swiper

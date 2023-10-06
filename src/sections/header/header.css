@@ -21,10 +21,10 @@ header {
 
 .header__profile {
     width: 18rem;
-    height: 22rem;
-    border-radius: 9rem 9rem 2rem 2rem;
+    height: 18rem;
+    border-radius: 9rem 9rem 9rem 9rem;
     overflow: hidden;
-    margin-bottom: 1.5rem;
+    margin-bottom: 3rem;
 }
 
 .header__container p {
@@ -84,9 +84,7 @@ header {
 @media screen and (max-width: 600px) {
     .header__profile {
         width: 14rem;
-        height: 17rem;
-        max-width: 60%;
-        max-height: 35vh;
+        height: 14rem;
     }
 
     .header__container p {
