@@ -20,7 +20,8 @@ const Header = () => {
         <p data-aos="fade-up">
         I'm not a typical Software Developer. As a Professional Computer Scientist <br/> 
         with a passion for art, I am constantly striving to excel at melding those <br/>
-        two worlds. Coding and design are my forte, always with an Eye for detail.  
+        two worlds. Coding and design are my forte, always with an Eye for detail. <br/><br/>
+        .NET Developers <a href="https://www.freecodecamp.org/certification/Bee4Brendan/foundational-c-sharp-with-microsoft?fbclid=IwAR0Zb5i7qaop8ClE_n6NIGNLPfQURjMphLxWBQ0LqKS-EbqZ-isyTl2vf_Q" target="_blank"><h3 className="link">C#</h3></a> "See Sharp"
         </p>
         <div className="header__cta" data-aos="fade-up">
           <a href="#contact" className='btn primary'>Let's Talk</a>

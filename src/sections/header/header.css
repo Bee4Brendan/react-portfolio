@@ -27,6 +27,11 @@ header {
     margin-bottom: 3rem;
 }
 
+.link{
+    font-size: medium;
+    color: gray;
+}
+
 .header__container p {
     width: 35rem;
     text-align: center;
