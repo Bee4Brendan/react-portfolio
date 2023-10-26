@@ -24,12 +24,20 @@ header {
     height: 18rem;
     border-radius: 9rem 9rem 9rem 9rem;
     overflow: hidden;
+    margin-top: 3rem;
     margin-bottom: 3rem;
 }
 
-.link{
-    font-size: medium;
-    color: gray;
+.btn.skill_badge {
+    size: 5rem;
+    background-color: transparent;
+    border: none;
+    display: inline-block;
+    padding: 0;
+}
+
+.btn.skill_badge:hover {
+    transform: translateY(-0.5rem);
 }
 
 .header__container p {
