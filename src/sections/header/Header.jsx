@@ -1,7 +1,6 @@
 import { useEffect } from 'react'
 import HeaderImage from '../../assets/selfie.jpg'
 import cSharpImage from '../../assets/csharp.png'
-import BeeImage from '../../assets/bee.png'
 import data from './data'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
@@ -40,7 +39,6 @@ const Header = () => {
         </div>
         <div>
         <a className="btn skill_badge" href={link} target="_blank" rel="noopener noreferrer"><img src={cSharpImage} alt="Header Badge"/></a>
-        <a className="btn skill_badge" href={link} target="_blank" rel="noopener noreferrer"><img src={BeeImage} alt="Header Badge"/></a>
         </div>
       </div>
     </header>

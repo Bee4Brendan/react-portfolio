@@ -29,11 +29,13 @@ header {
 }
 
 .btn.skill_badge {
-    size: 5rem;
+    width: 200px;
+    height: 200px;
     background-color: transparent;
     border: none;
     display: inline-block;
-    padding: 0;
+    margin-top: 1.5rem;
+    padding: none;
 }
 
 .btn.skill_badge:hover {
@@ -55,7 +57,7 @@ header {
 .header__socials {
     position: absolute;
     left: 0;
-    bottom: 0;
+    bottom: 40%;
     display: flex;
     flex-direction:column;
     gap: 1rem;
@@ -110,5 +112,17 @@ header {
 
     .header__socials {
         display: none;
+    }
+
+    .btn.skill_badge {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .header__profile {
+        margin-top: 7rem;
+        margin-bottom: 3rem;
     }
 }
