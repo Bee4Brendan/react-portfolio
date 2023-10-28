@@ -60,7 +60,7 @@ main.color-1 {
     --primary-hue: 180;
 }
 main.color-2 {
-    --primary-hue: 110;
+    --primary-hue: 50;
 }
 main.color-3 {
     --primary-hue: 240;
@@ -69,10 +69,10 @@ main.color-4 {
     --primary-hue: 325;
 }
 main.color-5 {
-    --primary-hue: 70;
+    --primary-hue: 60;
 }
 main.color-6 {
-    --primary-hue: 285;
+    --primary-hue: 260;
 }
 
 main.bg-2 {
