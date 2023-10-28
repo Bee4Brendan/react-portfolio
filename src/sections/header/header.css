@@ -28,6 +28,16 @@ header {
     margin-bottom: 3rem;
 }
 
+.btn.sm.header__title {
+    width:30rem;
+    border: none;
+    background: transparent;
+}
+
+.btn.sm.header__title:hover {
+    transform: translateY(-0.5rem);
+}
+
 .btn.skill_badge {
     width: 200px;
     height: 200px;
@@ -115,8 +125,19 @@ header {
     }
 
     .btn.skill_badge {
+        margin: 0;
         width: 125px;
         height: 125px;
+    }
+
+    .header__title {
+        width:17rem;
+    }
+
+    .btn.sm.header__title {
+        width:20rem;
+        border: none;
+        background: transparent;
     }
 }
 
@@ -124,5 +145,10 @@ header {
     .header__profile {
         margin-top: 7rem;
         margin-bottom: 3rem;
+    }
+
+    .btn.skill_badge {
+        margin: 0;
+        width: 100px;
     }
 }
