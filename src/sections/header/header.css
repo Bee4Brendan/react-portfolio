@@ -25,7 +25,7 @@ header {
     border-radius: 9rem 9rem 9rem 9rem;
     overflow: hidden;
     margin-top: 3rem;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 }
 
 .btn.sm.header__title {
@@ -108,8 +108,9 @@ header {
 /* MEDIA QUERIES (tablets) */
 @media screen and (max-width: 600px) {
     .header__profile {
-        width: 14rem;
-        height: 14rem;
+        margin-bottom: 2rem;
+        width: 12rem;
+        height: 12rem;
     }
 
     .header__container p {
@@ -144,7 +145,7 @@ header {
 @media screen and (max-width: 400px) {
     .header__profile {
         margin-top: 7rem;
-        margin-bottom: 3rem;
+        margin-bottom: 1rem;
     }
 
     .btn.skill_badge {
