@@ -29,7 +29,7 @@ header {
 }
 
 .btn.sm.header__title {
-    width:30rem;
+    width:20rem;
     border: none;
     background: transparent;
 }
@@ -108,7 +108,8 @@ header {
 /* MEDIA QUERIES (tablets) */
 @media screen and (max-width: 600px) {
     .header__profile {
-        margin-bottom: 2rem;
+        margin-top: 7rem;
+        margin-bottom: 1rem;
         width: 12rem;
         height: 12rem;
     }
@@ -136,7 +137,7 @@ header {
     }
 
     .btn.sm.header__title {
-        width:20rem;
+        width:12rem;
         border: none;
         background: transparent;
     }
