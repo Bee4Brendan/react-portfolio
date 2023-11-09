@@ -1,7 +1,7 @@
 import { useEffect } from 'react'
 import HeaderImage from '../../assets/selfie.jpg'
 import cSharpImage from '../../assets/csharp.png'
-import HeaderTitle from '../../assets/8bitBrendan.png'
+import HeaderTitle from '../../assets/8bit.png'
 import data from './data'
 import AOS from 'aos'
 import 'aos/dist/aos.css'

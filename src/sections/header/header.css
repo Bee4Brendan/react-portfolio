@@ -39,8 +39,8 @@ header {
 }
 
 .btn.skill_badge {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     background-color: transparent;
     border: none;
     display: inline-block;
@@ -128,8 +128,8 @@ header {
 
     .btn.skill_badge {
         margin: 0;
-        width: 125px;
-        height: 125px;
+        width: 100px;
+        height: 100px;
     }
 
     .header__title {
