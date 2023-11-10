@@ -22,9 +22,9 @@ const Header = () => {
         </div>
         <img className="btn sm header__title" src={HeaderTitle} data-aos="fade-up" alt="Header Title"/>
           <p data-aos="fade-up">
-          I'm not a typical Software Developer. As a Professional Computer Scientist <br/> 
-          with a passion for art, I am constantly striving to excel at melding those <br/>
-          two worlds. Coding and design are my forte, always with an Eye for detail. <br/><br/>
+          I'm not a typical Software Developer. As a Professional Computer Scientist 
+          with a passion for art, I am constantly striving to excel at melding those 
+          two worlds. Coding and design are my forte, always with an Eye for detail. <br/>
           </p>
         <div className="header__cta" data-aos="fade-up">
           <a href="#contact" className='btn primary'>Let's Talk</a>
