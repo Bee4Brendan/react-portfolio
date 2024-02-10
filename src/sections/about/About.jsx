@@ -31,7 +31,7 @@ const About = () => {
                 In my decade long career as a Computer Scientist, I have accumulated experience with .NET, Android, Azure, Bash, C, CSS, C#, C++, Eclipse, Git, Github, HTML, Java, JavaScript, Jira, Packer, PHP, SQL, TFS, Visual Studio, WPF, XML, XAML & More... 
                 </p>
                 <p>
-                I have designed, developed, and tested code that is currently running on the Boeing E-3 Sentry <strong>AWACS</strong> as well as flight simulations for the Boeing E-6B Mercury <strong>TACAMO</strong> in just a few, short years. There is no part of the Software Development Life Cycle that I have not participated in. 
+                I have designed, developed, and tested code for the Boeing E-3 Sentry <strong>AWACS</strong> as well as flight simulations for the Boeing E-6B Mercury <strong>TACAMO</strong> in just a few, short years. There is no part of the Software Development Life Cycle that I have not participated in. 
                 </p>
                 <h3 className="vision">
                 "VISION IS THE <a href="#testimonials"><h3 className="art__vision" >ART</h3></a> OF SEEING WHAT IS INVISIBLE TO OTHERS"
