@@ -101,12 +101,12 @@ const data = [
         ,
         {
         id: 18,
-        avatar: Photo19,
+        avatar: Photo18,
         }
         ,
         {
         id: 19,
-        avatar: Photo18,
+        avatar: Photo19,
         }
     ]
 
