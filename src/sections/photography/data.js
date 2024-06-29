@@ -16,6 +16,7 @@ import Photo15 from '../../assets/photo15.jpg'
 import Photo16 from '../../assets/photo16.jpg'
 import Photo17 from '../../assets/photo17.jpg'
 import Photo18 from '../../assets/photo18.png'
+import Photo19 from '../../assets/photo19.jpg'
 
 
 const data = [
@@ -100,6 +101,11 @@ const data = [
         ,
         {
         id: 18,
+        avatar: Photo19,
+        }
+        ,
+        {
+        id: 19,
         avatar: Photo18,
         }
     ]

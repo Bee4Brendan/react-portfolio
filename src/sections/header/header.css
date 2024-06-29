@@ -38,6 +38,19 @@ header {
     transform: translateY(-0.5rem);
 }
 
+.header__profile{
+    animation: header-title-spin infinite 20s linear;
+}
+
+@keyframes header-title-spin{
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
 .btn.skill_badge {
     width: 150px;
     height: 150px;
