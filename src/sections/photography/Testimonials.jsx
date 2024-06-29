@@ -38,7 +38,7 @@ const Testimonials = () => {
         className="mySwiper"
       >
         {
-           photos.reverse().map(photo => (
+           photos.map(photo => (
             <SwiperSlide key={photo.id}>
               <Testimonial testimonial={photo}/>
             </SwiperSlide>
