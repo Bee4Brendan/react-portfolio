@@ -1,6 +1,5 @@
 import { useEffect } from 'react'
-import HeaderImage from '../../assets/selfie.jpg'
-import cSharpImage from '../../assets/csharp.png'
+import HeaderImage from '../../assets/selfie5.jpeg'
 import HeaderTitle from '../../assets/8bit-1.png'
 import data from './data'
 import AOS from 'aos'
@@ -11,8 +10,6 @@ const Header = () => {
   useEffect(() => {
     AOS.init({duration: 2000})
   }, [])
-
-  var link = 'https://www.freecodecamp.org/certification/Bee4Brendan/foundational-c-sharp-with-microsoft?fbclid=IwAR0Zb5i7qaop8ClE_n6NIGNLPfQURjMphLxWBQ0LqKS-EbqZ-isyTl2vf_Q';
 
   return (
     <header id="header">
@@ -37,9 +34,6 @@ const Header = () => {
           {
             data.map(item => <a key={item.id} href={item.link} target="_blank" rel="noopener noreferrer">{item.icon}</a>)
           }
-        </div>
-        <div>
-        <a className="btn skill_badge" href={link} target="_blank" rel="noopener noreferrer"><img src={cSharpImage} alt="Header Badge"/></a>
         </div>
       </div>
     </header>
