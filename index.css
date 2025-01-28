@@ -133,7 +133,7 @@ img {
 
 .btn:hover {
     background-color: transparent;
-    border-color: var(--color-light);
+    border-color: var(--color-primary);
     transform: translateY(-0.5rem);
 }
 

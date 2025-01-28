@@ -1,4 +1,4 @@
-import AboutImage from '../../assets/selfie1.jpg'
+import AboutImage from '../../assets/selfie3.jpeg'
 import Resume from '../../assets/brendansresume.pdf'
 import {HiDownload} from 'react-icons/hi'
 import data from './data'
@@ -11,7 +11,7 @@ const About = () => {
         <div className="container about__container">
             <div className="about__left">
                 <div className="about__portrait">
-                    <img src={AboutImage} alt="About" title="This is pretty old, but HQ" />
+                    <img src={AboutImage} alt="About" />
                 </div>
             </div>
             <div className="about__right">
@@ -28,7 +28,7 @@ const About = () => {
                     }
                 </div>
                 <p>
-                In my decade long career as a Computer Scientist, I have accumulated experience with .NET, Android, Azure, Bash, C, CSS, C#, C++, Eclipse, Git, Github, HTML, Java, JavaScript, Jira, Packer, PHP, SQL, TFS, Visual Studio, WPF, XML, XAML & More... 
+                In my decade long career as a Computer Scientist, I have accumulated experience with .NET, Android, Azure, Bash, C, CSS, C#, C++, Eclipse, Git, Github, HTML, Java, JavaScript, Jira, Packer, PHP, ReactJS, SQL, TFS, TypeScript, Visual Studio, WPF, XML, XAML & More... 
                 </p>
                 <p>
                 I have designed, developed, and tested code for the Boeing E-3 Sentry <strong>AWACS</strong> as well as flight simulations for the Boeing E-6B Mercury <strong>TACAMO</strong> in just a few, short years. There is no part of the Software Development Life Cycle that I have not participated in. 

@@ -9,18 +9,17 @@ import Photo8 from '../../assets/photo8.jpg'
 import Photo9 from '../../assets/photo9.jpg'
 import Photo10 from '../../assets/photo10.jpg'
 import Photo11 from '../../assets/photo11.jpg'
-import Photo12 from '../../assets/photo12.jpg'
-import Photo13 from '../../assets/photo13.jpg'
+import Photo12 from '../../assets/photo12.jpeg'
+import Photo13 from '../../assets/photo13.jpeg'
 import Photo14 from '../../assets/photo14.jpg'
-import Photo15 from '../../assets/photo15.jpg'
+import Photo15 from '../../assets/photo15.jpeg'
 import Photo16 from '../../assets/photo16.jpg'
 import Photo17 from '../../assets/photo17.jpg'
-import Photo18 from '../../assets/photo18.png'
+import Photo18 from '../../assets/photo18.jpeg'
 import Photo19 from '../../assets/photo19.jpg'
-import Photo20 from '../../assets/photo20.jpeg'
+import Photo20 from '../../assets/photo20.jpg'
 import Photo21 from '../../assets/photo21.jpeg'
 import Photo22 from '../../assets/photo22.jpeg'
-
 
 const data = [
         {
@@ -127,7 +126,5 @@ const data = [
         avatar: Photo22,
         }
     ]
-
-
 
     export default data
