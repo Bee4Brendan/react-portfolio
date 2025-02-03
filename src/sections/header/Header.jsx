@@ -15,7 +15,7 @@ const Header = () => {
     <header id="header">
       <div className="container header__container">
         <div className="header__profile" data-aos="fade-in">
-          <img src={HeaderImage} alt="Header Portait" title="I'm not shady, the sun was in my eyes" />
+          <img src={HeaderImage} alt="Header Portait"/>
         </div>
         <img className="btn sm header__title" src={HeaderTitle} data-aos="flip-right" alt="Header Title"/>
           <p data-aos="fade-up">
