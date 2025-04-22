@@ -134,13 +134,18 @@ a {
 }
 
 /* GENERAL HEADING STYLES */
-h1, h2, h3, h4, h5, h6 {
+h1, h1-pixel, h2, h3, h4, h5, h6 {
     line-height: 1.1;
     color: var(--color-black);
 }
 
 h1 {
     font-size: 3rem;
+}
+
+h1-pixel {
+    font-size: 2.5rem;
+    font-family: 'Press Start 2P', cursive;
 }
 
 h2 {
@@ -244,6 +249,10 @@ img {
     h1 {
         font-size: 2rem;
     }
+
+    h1-pixel {
+        font-size: 1.5rem;
+    }
 }
 
 
@@ -254,6 +263,10 @@ img {
 @media screen and (max-width: 600px) {
     h1 {
         font-size: 2.4rem;
+    }
+
+    h1-pixel {
+        font-size: 1.5rem;
     }
 
     h2 {

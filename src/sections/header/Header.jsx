@@ -17,7 +17,8 @@ const Header = () => {
         <div className="header__profile" data-aos="fade-in">
           <img src={HeaderImage} alt="Header Portait"/>
         </div>
-        <img className="btn sm header__title" src={HeaderTitle} data-aos="flip-right" alt="Header Title"/>
+        <h1-pixel data-aos="flip-right">Brendan Bryan</h1-pixel>
+        {/* <img className="btn sm header__title" src={HeaderTitle} data-aos="flip-right" alt="Header Title"/> */}
           <p data-aos="fade-up">
           I'm not a typical Software Developer. As a Professional Computer Scientist 
           with a passion for art, I am constantly striving to excel at melding those 
