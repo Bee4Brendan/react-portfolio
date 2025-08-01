@@ -1,14 +1,36 @@
-import { useEffect } from 'react'
+import { useEffect, useRef } from 'react'
 import HeaderImage from '../../assets/selfie5.jpeg'
 import HeaderTitle from '../../assets/8bit-1.png'
 import data from './data'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 import './header.css'
+import Typed from 'typed.js'
 
 const Header = () => {
+
+  const el = useRef(null);
+  // Create reference to store the Typed instance itself
+	const typed = useRef(null);
+
   useEffect(() => {
-    AOS.init({duration: 2000})
+    AOS.init({duration: 2000});
+
+    const options = {
+    	strings: ['Software Developer', 'Photographer', 'Front-End Web Developer', 'Application Developer', 'Back-End Web Developer'],
+      loop: true,
+      showCursor: true,
+      typeSpeed: 70,
+      backSpeed: 30,
+    };
+
+    typed.current = new Typed(el.current, options);
+
+    return () => {
+      // Make sure to destroy Typed instance during cleanup
+      // to prevent memory leaks
+      typed.current.destroy();
+    }
   }, [])
 
   return (
@@ -17,7 +39,8 @@ const Header = () => {
         <div className="header__profile" data-aos="fade-in">
           <img src={HeaderImage} alt="Header Portait"/>
         </div>
-        <h1-pixel data-aos="flip-right">Brendan Bryan</h1-pixel>
+        {/* <h2 data-aos="flip-right">Brendan Bryan</h2> */}
+        <div><h2-typed ref={el}></h2-typed></div>
         {/* <img className="btn sm header__title" src={HeaderTitle} data-aos="flip-right" alt="Header Title"/> */}
           <p data-aos="fade-up">
           I'm not a typical Software Developer. As a Professional Computer Scientist 

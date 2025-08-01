@@ -52,9 +52,6 @@ body {
 
 
 
-
-
-
 /* THEME change using react */
 main.color-1 {
     --primary-hue: 180;
@@ -134,7 +131,7 @@ a {
 }
 
 /* GENERAL HEADING STYLES */
-h1, h1-pixel, h2, h3, h4, h5, h6 {
+h1, h1-pixel, h2, h2-typed, h3, h4, h5, h6 {
     line-height: 1.1;
     color: var(--color-black);
 }
@@ -151,11 +148,23 @@ h1-pixel {
 h2 {
     font-size: 3rem;
     font-family: 'Bebas Neue', cursive;
+    font-weight: 300;
+    letter-spacing: 3;
+}
+
+h2-typed {
+    font-size: 3rem;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.typed-cursor {
+    font-size: 3rem;
 }
 
 h3 {
     font-size: 1.5rem;
     font-family: 'Press Start 2P', cursive;
+    line-height: 1.5;
 }
 
 h4 {
@@ -269,8 +278,8 @@ img {
         font-size: 1.5rem;
     }
 
-    h2 {
-        font-size: 1.8rem;
+    h2, h2-typed {
+        font-size: 2rem;
     }
 
     h3 {

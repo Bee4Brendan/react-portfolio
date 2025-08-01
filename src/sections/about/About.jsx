@@ -15,7 +15,7 @@ const About = () => {
                 </div>
             </div>
             <div className="about__right">
-                <h2>About Me</h2>
+                <h2>Brendan Bryan </h2>
                 <div className="about__cards">
                     {
                         data.map(item => (

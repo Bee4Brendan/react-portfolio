@@ -40,7 +40,7 @@ header {
     transform: translateY(-0.5rem);
 }
 
-.header__profile{
+/* .header__profile{
     animation: header-title-spin infinite 20s linear;
 }
 
@@ -51,7 +51,7 @@ header {
     to {
         transform: rotate(360deg);
     }
-}
+} */
 
 .btn.skill_badge {
     width: 150px;
