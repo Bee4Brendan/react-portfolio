@@ -3,12 +3,13 @@ nav {
     height: 5rem;
     display: grid;
     place-items: center;
+    /* background-image: linear-gradient(var(--color-primary) 75%, #312d2d); */
     background: var(--color-primary);
     position: fixed;
     top: 0;
     left: 0;
     z-index: 9;
-    box-shadow: 0 1rem 1.5rem hsla(var(--primary-hue), 68%, 42%, 20%);
+    box-shadow: 0 1rem 1.5rem hsla(var(--primary-hue), 68%, 42%, 30%);
     transition: var(--transition);
 }
 
@@ -27,10 +28,19 @@ nav {
 .nav__menu {
     display: flex;
     gap: 3.5rem;
+
 }
 
-.nav__menu li:hover{
-    font-size: 1.5rem;
+.nav__menu {
+
+    li {
+        transition: all 0.5s;
+
+        &:hover {
+            transform: scale(1.5);
+        }
+    }
+    
 }
 
 #theme__icon {

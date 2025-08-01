@@ -4,6 +4,8 @@ header {
     display: grid;
     place-items: center;
     background: var(--color-white);
+    background-size: cover;
+    background-image: url("/src/assets/IMG_5847.jpg");
     transition: var(--transition);
 }
 
