@@ -3,8 +3,8 @@ nav {
     height: 5rem;
     display: grid;
     place-items: center;
-    /* background-image: linear-gradient(var(--color-primary) 75%, #312d2d); */
     background: var(--color-primary);
+    background-image: linear-gradient(var(--color-primary) 80%, #212405);
     position: fixed;
     top: 0;
     left: 0;
@@ -28,19 +28,14 @@ nav {
 .nav__menu {
     display: flex;
     gap: 3.5rem;
-
 }
 
-.nav__menu {
+li {
+    transition: all 0.5s;
+}
 
-    li {
-        transition: all 0.5s;
-
-        &:hover {
-            transform: scale(1.5);
-        }
-    }
-    
+li:hover {
+    transform: scale(1.5);
 }
 
 #theme__icon {

@@ -6,6 +6,7 @@ header {
     background: var(--color-white);
     background-size: cover;
     background-image: url("/src/assets/IMG_5847.jpg");
+    background-color: rgba(208, 231, 76, 0.6);
     transition: var(--transition);
 }
 
@@ -27,7 +28,7 @@ header {
     border-radius: 9rem 9rem 9rem 9rem;
     overflow: hidden;
     margin-top: 3rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
 }
 
 .btn.sm.header__title {

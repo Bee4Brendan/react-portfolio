@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'react'
 import HeaderImage from '../../assets/selfie5.jpeg'
-import HeaderTitle from '../../assets/8bit-1.png'
+// import HeaderTitle from '../../assets/8bit-1.png'
 import data from './data'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
@@ -41,7 +41,7 @@ const Header = () => {
         </div>
         {/* <h2 data-aos="flip-right">Brendan Bryan</h2> */}
         <div><h2-typed ref={el}></h2-typed></div>
-        {/* <img className="btn sm header__title" src={HeaderTitle} data-aos="flip-right" alt="Header Title"/> */}
+        {/* <img style={{width: '150px'}} className="btn sm header__title" src={HeaderTitle} data-aos="flip-right" alt="Header Title"/> */}
           <p data-aos="fade-up">
           I'm not a typical Software Developer. As a Professional Computer Scientist 
           with a passion for art, I am constantly striving to excel at melding those 
