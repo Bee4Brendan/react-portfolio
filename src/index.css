@@ -13,9 +13,9 @@
     --primary-hue: 270;*/
     --primary-hue: 270;
     --black-lightness: 15%;
-    --dark-lightness: 44%;
+    --dark-lightness: 60%;
     --light-lightness: 94%;
-    --white-lightness: 100%;
+    --white-lightness: 85%;
     --color-primary: hsl(var(--primary-hue), 89%, 41%);
     --color-white: hsl(0, 5%, var(--white-lightness));
     --color-light: hsl(var(--primary-hue), 5%, var(--light-lightness));
@@ -126,7 +126,7 @@ section > p {
 
 /* GENERAL SECTION STYLES */
 a {
-    color: var(--color-white);
+    color: black;
     transition: var(--transition);
 }
 
@@ -155,10 +155,15 @@ h2 {
 h2-typed {
     font-size: 3rem;
     font-family: 'Bebas Neue', cursive;
+    color: white;
 }
 
 .typed-cursor {
     font-size: 3rem;
+}
+
+h3.username {
+    color: white;
 }
 
 h3 {
