@@ -15,9 +15,6 @@ const themeReducer = (state, action) => {
     if(action.type === 'color-5') {
         return {...state, primary: 'color-5'}
     }
-    if(action.type === 'color-6') {
-        return {...state, primary: 'color-6'}
-    }
     // for background colors
     if(action.type === 'bg-1') {
         return {...state, background: 'bg-1'}

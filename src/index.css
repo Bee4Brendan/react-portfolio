@@ -11,7 +11,7 @@
 :root {
     /* Started as purple, I made it Cyan 
     --primary-hue: 270;*/
-    --primary-hue: 270;
+    --primary-hue: 74;
     --black-lightness: 15%;
     --dark-lightness: 60%;
     --light-lightness: 94%;
@@ -54,22 +54,19 @@ body {
 
 /* THEME change using react */
 main.color-1 {
-    --primary-hue: 180;
+    --primary-hue: 74;
 }
 main.color-2 {
-    --primary-hue: 50;
+    --primary-hue: 260;
 }
 main.color-3 {
-    --primary-hue: 240;
+    --primary-hue: 167;
 }
 main.color-4 {
     --primary-hue: 325;
 }
 main.color-5 {
     --primary-hue: 60;
-}
-main.color-6 {
-    --primary-hue: 260;
 }
 
 main.bg-2 {
@@ -85,7 +82,7 @@ main.bg-2 {
 
 main {
     color: var(--color-dark);
-    --color-primary: hsl(var(--primary-hue), 89%, 41%);
+    --color-primary: hsl(var(--primary-hue), 100%, 50%);
 }
 
 
@@ -191,6 +188,29 @@ img {
     display: block;
     width: 100%;
     object-fit: cover;
+
+
+}
+
+.btn-header {
+    display: inline-block;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background: var(--color-light);
+    color: var(--color-black);
+    padding: 0.6rem 2.5rem;
+    border: 2px solid transparent;
+    border-radius: var(--border-radius-2);
+    cursor: pointer;
+}
+
+.btn-header:hover {
+    color: white;
+    background-color: transparent;
+    border-color: var(--color-primary);
+    transform: translateY(-0.5rem);
 }
 
 /* GENERAL BUTTON STYLES */
@@ -210,7 +230,7 @@ img {
 
 .btn:hover {
     background-color: transparent;
-    border-color: var(--color-light);
+    border-color: var(--color-primary);
     transform: translateY(-0.5rem);
 }
 

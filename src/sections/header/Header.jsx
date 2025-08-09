@@ -43,13 +43,13 @@ const Header = () => {
         <div><h2-typed ref={el}></h2-typed></div>
         {/* <img style={{width: '150px'}} className="btn sm header__title" src={HeaderTitle} data-aos="flip-right" alt="Header Title"/> */}
           <p data-aos="fade-up">
-          I'm not a typical Software Developer. As a Professional Computer Scientist 
+          As a Professional Computer Scientist 
           with a passion for art, I am constantly striving to excel at melding those 
           two worlds. Coding and design are my forte, always with an Eye for detail. <br/>
           </p>
         <div className="header__cta" data-aos="fade-up">
           <a href="#contact" className='btn primary'>Let's Talk</a>
-          <a href="#portfolio" className='btn light'>My Work</a>
+          <a href="#portfolio" className='btn-header'>My Work</a>
         </div>
         <div className="header__socials">
         <h3 className="username">@Bee4Brendan </h3>
