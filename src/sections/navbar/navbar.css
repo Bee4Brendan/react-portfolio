@@ -25,6 +25,14 @@ nav {
     overflow: hidden;
 }
 
+a.nav__logo img {
+    transition: all 1s;
+}
+
+a.nav__logo img:hover {
+    transform: rotate(180deg);
+}
+
 .nav__menu {
     display: flex;
     gap: 3.5rem;

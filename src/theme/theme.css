@@ -48,6 +48,8 @@
     cursor: pointer;
 }
 
+/* TODO: Add border for selected color and theme */
+/* TODO: Add a button switch (with moon) for light / dark mode */
 .theme__primary-colors .color-1 {
     background: hsl(74, 100%, 50%);
 }
