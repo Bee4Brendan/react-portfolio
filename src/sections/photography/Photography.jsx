@@ -1,16 +1,12 @@
 // Import Swiper React components
-import { useEffect, useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/autoplay";
-import Typed from "typed.js";
-
 // import required modules
 import { Pagination } from "swiper";
-
 import photos from "./data";
 import Testimonial from "./Photograph";
 import "./photography.css";
