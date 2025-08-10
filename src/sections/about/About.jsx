@@ -1,4 +1,4 @@
-import AboutImage from '../../assets/selfie1.jpeg'
+import AboutImage from '../../assets/about3.jpg'
 import Resume from '../../assets/brendansresume.pdf'
 import {HiDownload} from 'react-icons/hi'
 import data from './data'
@@ -33,9 +33,6 @@ const About = () => {
                 <p>
                 I have designed, developed, and tested code for the Boeing E-3 Sentry <strong>AWACS</strong> as well as flight simulations for the Boeing E-6B Mercury <strong>TACAMO</strong> in just a few, short years. There is no part of the Software Development Life Cycle that I have not participated in. 
                 </p>
-                <h3 className="vision">
-                "VISION IS THE <a href="#testimonials"><h3 className="art__vision" >ART</h3></a> OF SEEING WHAT IS INVISIBLE TO OTHERS"
-                </h3>
                 <a href={Resume} download className='btn primary'>Download Resumé <HiDownload/></a>
             </div>
         </div>

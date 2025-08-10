@@ -120,6 +120,10 @@ section > p {
     width: 40%;
 }
 
+@font-face {
+    font-family: Marathon;
+    src: url(/src/font/KH\ Interference\ Regular.ttf);
+}
 
 /* GENERAL SECTION STYLES */
 a {
@@ -139,17 +143,19 @@ h1 {
 
 h1-pixel {
     font-size: 2.5rem;
-    font-family: 'Press Start 2P', cursive;
+    font-family: marathon;
 }
 
 h2 {
-    font-size: 3rem;
-    font-family: 'Bebas Neue', cursive;
+    font-size: 3.5rem;
+    /* font-family: 'Bebas Neue', cursive; */
+    font-family: marathon;
     font-weight: 300;
     letter-spacing: 3;
 }
 
 h2-typed {
+    
     font-size: 3rem;
     font-family: 'Bebas Neue', cursive;
     color: white;
@@ -165,13 +171,14 @@ h3.username {
 
 h3 {
     font-size: 1.5rem;
-    font-family: 'Press Start 2P', cursive;
+    font-family: marathon;
     line-height: 1.5;
 }
 
 h4 {
     font-size: 1rem;
-    font-family: 'Press Start 2P', cursive;
+    font-family: marathon;
+    font-weight: normal;
 }
 
 h5 {

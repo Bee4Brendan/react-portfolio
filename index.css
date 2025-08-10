@@ -118,6 +118,7 @@ img {
 
 /* GENERAL BUTTON STYLES */
 .btn {
+    font-family: marathon;
     display: inline-block;
     width: fit-content;
     display: flex;

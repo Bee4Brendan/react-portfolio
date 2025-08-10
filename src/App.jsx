@@ -3,7 +3,7 @@ import Header from './sections/header/Header';
 import About from './sections/about/About';
 import Services from './sections/roles/Roles';
 import Portfolio from './sections/portfolio/Portfolio';
-import Testimonials from './sections/photography/Testimonials';
+import Testimonials from "./sections/photography/Photography";
 import FAQs from './sections/faqs/FAQs';
 import Contact from './sections/contact/Contact';
 import Footer from './sections/footer/Footer';

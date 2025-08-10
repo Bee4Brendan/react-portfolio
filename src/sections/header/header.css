@@ -102,9 +102,11 @@ div.header__profile img:hover {
 }
 
 .username {
-    width: 50%;
+    padding-bottom: 50px;
+    line-height: 5.65;
+    letter-spacing: 2;
     opacity: .65;
-    font-size: medium;
+    font-size: 20px;
     transform: rotate(-90deg);
 }
 
