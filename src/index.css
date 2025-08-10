@@ -252,6 +252,7 @@ img {
 
 .btn.primary {
     background: var(--color-primary);
+    color: black;
     /* text color always white that's why i didn't use a variable color */
 }
 
