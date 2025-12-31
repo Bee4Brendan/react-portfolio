@@ -20,17 +20,17 @@ nav {
 }
 
 .nav__logo {
-    width: 3rem;
-    border-radius: 50%;
-    overflow: hidden;
+    width: 3.5rem;
+    /* border-radius: 50%; */
+    /* overflow: hidden; */
 }
 
 a.nav__logo img {
-    transition: all 1s;
+    transition: all .3s;
 }
 
 a.nav__logo img:hover {
-    transform: rotate(180deg);
+    transform: translate(-3px, -3px);
 }
 
 .nav__menu {
