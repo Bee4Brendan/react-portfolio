@@ -40,7 +40,8 @@
 
 .card.about__card:hover .about__card-icon {
     background: var(--color-primary);
-    color: var(--color-white);
+    /* color: var(--color-white); */
+    color: black;
 }
 
 .card.about__card h5 {

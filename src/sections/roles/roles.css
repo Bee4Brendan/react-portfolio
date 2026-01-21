@@ -15,12 +15,13 @@
     padding: 0.6rem;
     border-radius: var(--border-radius-3);
     font-size: 1.5rem;
-    color: var(--color-white);
+    /* color: var(--color-white); */
+    color: black;
     transition: var(--transition);
 }
 
 .service:hover .service__icon {
-    background: var(--color-light);
+    background: rgb(48, 48, 48);
     color: var(--color-primary);
 }
 

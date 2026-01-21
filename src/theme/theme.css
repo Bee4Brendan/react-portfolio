@@ -23,6 +23,8 @@
 }
 
 .card.theme__modal small {
+    font-family: "Roboto", sans-serif;
+    font-size: .8rem;
     margin-top: 0.6rem;
     display: block;
     width: 80%;
@@ -51,7 +53,7 @@
 /* TODO: Add border for selected color and theme */
 /* TODO: Add a button switch (with moon) for light / dark mode */
 .theme__primary-colors .color-1 {
-    background: hsl(74, 100%, 50%);
+    background: hsl(60, 100%, 50%);
 }
 
 .theme__primary-colors .color-2 {
@@ -67,7 +69,7 @@
 }
 
 .theme__primary-colors .color-5 {
-    background: hsl(60, 70%, 46%);
+    background: hsl(40, 100%, 50%);
 }
 
 .theme__background-colors {

@@ -11,11 +11,11 @@
 :root {
     /* Started as purple, I made it Cyan 
     --primary-hue: 270;*/
-    --primary-hue: 74;
+    --primary-hue: 60;
     --black-lightness: 15%;
-    --dark-lightness: 60%;
-    --light-lightness: 94%;
-    --white-lightness: 85%;
+    --dark-lightness: 41%;
+    --light-lightness: 100%;
+    --white-lightness: 77%;
     --color-primary: hsl(var(--primary-hue), 89%, 41%);
     --color-white: hsl(0, 5%, var(--white-lightness));
     --color-light: hsl(var(--primary-hue), 5%, var(--light-lightness));
@@ -40,21 +40,14 @@ html {
 }
 
 body {
-    font-family: 'Kanit', sans-serif;
+    font-family: "Bebas Neue", cursive;
     line-height: 1.6;
-    font-size: 0.9rem;
+    font-size: 1.2rem;
 }
-
-
-
-
-
-
-
 
 /* THEME change using react */
 main.color-1 {
-    --primary-hue: 74;
+    --primary-hue: 60;
 }
 main.color-2 {
     --primary-hue: 260;
@@ -66,12 +59,12 @@ main.color-4 {
     --primary-hue: 325;
 }
 main.color-5 {
-    --primary-hue: 60;
+    --primary-hue: 40;
 }
 
 main.bg-2 {
     --black-lightness: 96%;
-    --dark-lightness: 60%;
+    --dark-lightness: 55%;
     --light-lightness: 12%;
     --white-lightness: 6%;
     --color-white: hsl(0, 5%, var(--white-lightness));
@@ -84,13 +77,6 @@ main {
     color: var(--color-dark);
     --color-primary: hsl(var(--primary-hue), 100%, 50%);
 }
-
-
-
-
-
-
-
 
 /* GENERAL CONTAINER CLASS */
 .container {
@@ -132,7 +118,14 @@ a {
 }
 
 /* GENERAL HEADING STYLES */
-h1, h1-pixel, h2, h2-typed, h3, h4, h5, h6 {
+h1,
+h1-pixel,
+h2,
+h2-typed,
+h3,
+h4,
+h5,
+h6 {
     line-height: 1.1;
     color: var(--color-black);
 }
@@ -147,22 +140,22 @@ h1-pixel {
 }
 
 h2 {
-    font-size: 3.5rem;
+    font-size: 4rem;
     /* font-family: 'Bebas Neue', cursive; */
     font-family: marathon;
-    font-weight: 300;
-    letter-spacing: 3;
+    font-weight: 800;
+    letter-spacing: 1;
 }
 
 h2-typed {
-    
-    font-size: 3rem;
-    font-family: 'Bebas Neue', cursive;
+    font-size: 4rem;
+    font-family: "Bebas Neue", cursive;
     color: white;
+    mix-blend-mode: difference;
 }
 
 .typed-cursor {
-    font-size: 3rem;
+    font-size: 4rem;
 }
 
 h3.username {
@@ -190,13 +183,21 @@ h6 {
     font-size: 0.8rem;
 }
 
+p {
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+}
+
+.header-bio {
+    font-weight: 500;
+    color: #dedede;
+}
+
 /* GENERAL IMAGES STYLES */
 img {
     display: block;
     width: 100%;
     object-fit: cover;
-
-
 }
 
 .btn-header {
@@ -253,6 +254,7 @@ img {
 .btn.primary {
     background: var(--color-primary);
     color: black;
+    padding: 0.6rem 2.5rem;
     /* text color always white that's why i didn't use a variable color */
 }
 
@@ -266,15 +268,12 @@ img {
     padding: 0.5rem 1.2rem;
 }
 
-
-
-
 /* MEDIA QUERIES (tablets) */
 @media screen and (max-width: 1024px) {
     body {
         font-size: 1rem;
     }
-    
+
     .container {
         width: var(--container-width-md);
     }
@@ -297,10 +296,6 @@ img {
     }
 }
 
-
-
-
-
 /* MEDIA QUERIES (phones) */
 @media screen and (max-width: 600px) {
     h1 {
@@ -311,7 +306,8 @@ img {
         font-size: 1.5rem;
     }
 
-    h2, h2-typed {
+    h2,
+    h2-typed {
         font-size: 2rem;
     }
 
