@@ -1,5 +1,5 @@
 import { useEffect, useRef } from "react";
-import HeaderImage from "../../assets/selfie5.jpeg";
+import HeaderImage from "../../assets/about3.jpeg";
 // import HeaderTitle from '../../assets/8bit-1.png'
 import data from "./data";
 import AOS from "aos";
@@ -50,20 +50,28 @@ const Header = () => {
                     <h2-typed ref={el}></h2-typed>
                 </div>
                 {/* <img style={{width: '150px'}} className="btn sm header__title" src={HeaderTitle} data-aos="flip-right" alt="Header Title"/> */}
-                <p className="header-bio" data-aos="fade-up">
+                <div className="streak" data-aos="slide-down" data-aos-duration="3000" data-aos-easing="ease-in-out"></div>
+                <p className="header-bio" data-aos="fade-up" data-aos-duration="1200">
                     As a Professional Computer Scientist with a passion for art, I am constantly striving to excel at melding those two
                     worlds. Coding and design are my forte, always with an Eye for detail. <br />
                 </p>
                 <div className="header__cta" data-aos="fade-up">
-                    <a href="#contact" className="btn primary">
+                    <a href="#contact" className="btn-header">
                         Let's Talk
                     </a>
                     <a href="#projects" className="btn-header">
                         My Work
                     </a>
                 </div>
-                <div className="header__socials">
-                    <h3 className="username">@Bee4Brendan </h3>
+                <div className="up-ticker-wrap" data-aos="fade-in">
+                    <div className="up-ticker">
+                        <span> 🐝 @Bee4Brendan @Bee4Brendan @Bee4Brendan @Bee4Brendan @Bee4Brendan @Bee4Brendan @Bee4Brendan</span>
+                    </div>
+                </div>
+                <div className="down-ticker-wrap">
+                    <div className="down-ticker">
+                        <span>@Bee4Brendan @Bee4Brendan @Bee4Brendan @Bee4Brendan @Bee4Brendan @Bee4Brendan @Bee4Brendan</span>
+                    </div>
                 </div>
                 <div className="header__socials">
                     {data.map((item) => (

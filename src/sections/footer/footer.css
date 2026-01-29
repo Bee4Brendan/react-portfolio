@@ -1,6 +1,6 @@
 footer {
     background: var(--color-primary);
-    padding-top: 8rem;
+    padding-top: 2rem;
     box-shadow: 0 -1rem 1.5rem hsla(var(--primary-hue), 68%, 42%, 20%);
     transition: var(--transition);
 }
@@ -14,6 +14,9 @@ footer .nav__menu {
     display: flex;
     gap: 1.5rem;
     margin: 3rem auto 4rem;
+    border: 3px solid black;
+    border-radius: 50px;
+    padding: 1rem 2rem;
 }
 
 .footer__socials a {
@@ -30,6 +33,7 @@ footer .nav__menu {
 
 .footer__copyright {
     color: black;
+    letter-spacing: 1.5;
     text-align: center;
     border-top: 2px solid rgba(0, 0, 0, 0.2);
     padding: 1.5rem 0;

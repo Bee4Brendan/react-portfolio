@@ -4,12 +4,14 @@
     border: 2px solid transparent;
     border-radius: var(--border-radius-1);
     transition: var(--transition);
+    z-index: 1;
 }
 
 .card:hover {
     background: transparent;
     border-color: var(--color-white);
     transform: translateY(-0.5rem);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.45);
 }
 
 .card.light {
@@ -19,8 +21,8 @@
 .card.light:hover {
     background: transparent;
     border-color: var(--color-light);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.45);
 }
-
 
 /* MEDIA QUERIES (phones) */
 @media screen and (max-width: 600px) {

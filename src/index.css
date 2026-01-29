@@ -9,9 +9,7 @@
 }
 
 :root {
-    /* Started as purple, I made it Cyan 
-    --primary-hue: 270;*/
-    --primary-hue: 60;
+    --primary-hue: 72;
     --black-lightness: 15%;
     --dark-lightness: 41%;
     --light-lightness: 100%;
@@ -35,6 +33,10 @@
     --transition: all 500ms ease;
 }
 
+html, body {
+    overflow-x: hidden;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -47,7 +49,7 @@ body {
 
 /* THEME change using react */
 main.color-1 {
-    --primary-hue: 60;
+    --primary-hue: 72;
 }
 main.color-2 {
     --primary-hue: 260;
@@ -64,8 +66,8 @@ main.color-5 {
 
 main.bg-2 {
     --black-lightness: 96%;
-    --dark-lightness: 55%;
-    --light-lightness: 12%;
+    --dark-lightness: 70%;
+    --light-lightness: 17%;
     --white-lightness: 6%;
     --color-white: hsl(0, 5%, var(--white-lightness));
     --color-light: hsl(var(--primary-hue), 5%, var(--light-lightness));
@@ -148,14 +150,15 @@ h2 {
 }
 
 h2-typed {
-    font-size: 4rem;
+    font-size: 5rem;
     font-family: "Bebas Neue", cursive;
     color: white;
     mix-blend-mode: difference;
+    rotate: 45deg;
 }
 
 .typed-cursor {
-    font-size: 4rem;
+    font-size: 5rem;
 }
 
 h3.username {
@@ -189,8 +192,13 @@ p {
 }
 
 .header-bio {
-    font-weight: 500;
-    color: #dedede;
+    font-size: large;
+    font-weight: 400;
+    color: #ffffff;
+    mix-blend-mode: difference;
+    /* text-shadow:
+        0 0 1px rgba(0, 0, 0, 0.8),
+        1px 1px 2px rgba(0, 0, 0, 1); */
 }
 
 /* GENERAL IMAGES STYLES */
@@ -206,8 +214,10 @@ img {
     display: flex;
     align-items: center;
     gap: 1rem;
-    background: var(--color-light);
-    color: var(--color-black);
+    background: black;
+    opacity: 0.9;
+    mix-blend-mode: difference;
+    color: white;
     padding: 0.6rem 2.5rem;
     border: 2px solid transparent;
     border-radius: var(--border-radius-2);
@@ -215,10 +225,11 @@ img {
 }
 
 .btn-header:hover {
-    color: white;
+    color: black;
     background-color: transparent;
-    border-color: var(--color-primary);
+    border-color: black;
     transform: translateY(-0.5rem);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.45);
 }
 
 /* GENERAL BUTTON STYLES */
@@ -240,6 +251,7 @@ img {
     background-color: transparent;
     border-color: var(--color-primary);
     transform: translateY(-0.5rem);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.45);
 }
 
 .btn.white {
@@ -259,13 +271,19 @@ img {
 }
 
 .btn.primary:hover {
-    background: transparent;
+    background: black;
     border-color: var(--color-primary);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.45);
     color: var(--color-primary);
 }
 
 .btn.sm {
     padding: 0.5rem 1.2rem;
+
+    &:hover {
+        color: var(--color-light);
+        background: var(--color-black);
+    }
 }
 
 /* MEDIA QUERIES (tablets) */
@@ -294,6 +312,10 @@ img {
     h1-pixel {
         font-size: 1.5rem;
     }
+
+    .typed-cursor{
+        font-size: 25px;
+    }
 }
 
 /* MEDIA QUERIES (phones) */
@@ -309,6 +331,8 @@ img {
     h2,
     h2-typed {
         font-size: 2rem;
+        font-weight: 300;
+        margin-bottom: 2rem;
     }
 
     h3 {
@@ -325,5 +349,9 @@ img {
 
     section > p {
         width: var(--container-width-md);
+    }
+
+    .typed-cursor{
+        font-size: 30px;
     }
 }

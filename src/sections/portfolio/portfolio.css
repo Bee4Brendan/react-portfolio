@@ -14,7 +14,6 @@
     transform: translateY(0);
 }
 
-
 .portfolio__projects {
     margin-top: 3rem;
     display: grid;
@@ -60,12 +59,11 @@
     border-color: var(--color-white);
 }
 
-.portfolio__project:hover .btn.sm.primary {
-    background: transparent;
-    color: var(--color-primary);
-    border-color: var(--color-primary);
+.btn.sm.primary:hover {
+    background: var(--color-black);
+    color: var(--color-light);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.45);
 }
-
 
 /* MEDIA QUERIES (tablets) */
 @media screen and (max-width: 1024px) {
@@ -74,7 +72,6 @@
         gap: 2rem;
     }
 }
-
 
 /* MEDIA QUERIES (phones) */
 @media screen and (max-width: 600px) {

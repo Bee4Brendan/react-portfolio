@@ -8,13 +8,13 @@
 .contact__container a {
     width: 5rem;
     aspect-ratio: 1/1;
-    color: white;
+    color: black;
     background: var(--color-primary);
     display: grid;
     place-items: center;
     font-size: 2rem;
     border: 2px solid transparent;
-    border-radius: var(--border-radius-1);
+    border-radius: 50%;
 }
 
 .contact__container a:hover {
@@ -24,6 +24,28 @@
     transform: translateY(-0.5rem);
 }
 
+.contact__logo {
+    width: 15rem;
+    margin: auto;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    filter: drop-shadow(0 0 40px rgba(255, 255, 255, 0.5));
+    transition: all 0.3s ease;
+
+    &:hover {
+        animation: playful-shake 0.7s ease-in-out;
+        transform: skew(10%);
+        filter: drop-shadow(0 0 40px var(--color-primary));
+    }
+}
+
+@keyframes playful-shake {
+  0%   { transform: rotate(0deg); }
+  25%  { transform: rotate(-5deg); }
+  50%  { transform: rotate(5deg); }
+  75%  { transform: rotate(-2deg); }
+  100% { transform: rotate(0deg); }
+}
 
 
 /* MEDIA QUERIES (phones) */
