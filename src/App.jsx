@@ -1,6 +1,7 @@
 import Navbar from './sections/navbar/Navbar';
 import Header from './sections/header/Header';
 import About from './sections/about/About';
+import Skills from './sections/skills/Skills';
 import Services from './sections/roles/Roles';
 import Portfolio from './sections/portfolio/Portfolio';
 import Testimonials from "./sections/photography/Photography";
@@ -17,7 +18,7 @@ const App = () => {
 
   const mainRef = useRef();
   const [showFloatingNav, setShowFloatingNav] = useState(true);
-  const [siteYPostion, setSiteYPosition] = useState(0)
+  const [siteYPostion, setSiteYPosition] = useState(0);
 
   const showFloatingNavHandler = () => {
     setShowFloatingNav(true);
@@ -53,6 +54,7 @@ const App = () => {
         <Navbar/>
         <Header/>
         <About/>
+        <Skills/>
         <Services/>
         <Portfolio/>
         <Testimonials/>

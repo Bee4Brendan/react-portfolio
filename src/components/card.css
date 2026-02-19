@@ -5,6 +5,12 @@
     border-radius: var(--border-radius-1);
     transition: var(--transition);
     z-index: 1;
+
+    /* Liquid Glass */
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        box-shadow:
+            0 10px 40px rgba(0, 0, 0, 0),
+            inset 0 2px 4px rgba(255, 255, 255, 0.3);
 }
 
 .card:hover {
@@ -16,6 +22,12 @@
 
 .card.light {
     background: var(--color-light);
+
+    /* Liquid Glass */
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        box-shadow:
+            0 10px 40px rgba(0, 0, 0, 0.1),
+            inset 0 2px 4px rgba(255, 255, 255, 0.2);
 }
 
 .card.light:hover {

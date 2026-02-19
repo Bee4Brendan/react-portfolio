@@ -54,7 +54,7 @@ main.color-1 {
     --primary-hue: 72;
 }
 main.color-2 {
-    --primary-hue: 260;
+    --primary-hue: 204;
 }
 main.color-3 {
     --primary-hue: 167;
@@ -96,7 +96,7 @@ section {
     transition: var(--transition);
 }
 
-section:nth-child(even) {
+section:nth-child(odd) {
     background: var(--color-white);
 }
 

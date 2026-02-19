@@ -2,8 +2,6 @@
     display: none;
 }
 
-
-
 /* MEDIA QUERIES (tablets and phones */
 @media screen and (max-width: 1024px) {
     #floating__nav {
@@ -12,12 +10,22 @@
         position: fixed;
         bottom: 3rem;
         left: 50%;
+        border-radius: 3rem;
         transform: translateX(-50%);
         z-index: 9;
         animation: animateFloatingNav 300ms ease forwards;
+
+        /* Liquid Glass */
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(10px) saturate(180%);
+        -webkit-backdrop-filter: blur(10px) saturate(180%);
+        box-shadow:
+            0 10px 40px rgba(0, 0, 0, 0.1),
+            inset 0 2px 4px rgba(255, 255, 255, 0.2),
+            inset 0 -2px 4px rgba(0, 0, 0, 0.05);
     }
 
-@keyframes animateFloatingNav {
+    @keyframes animateFloatingNav {
         from {
             opacity: 0;
             bottom: -5rem;
@@ -31,21 +39,22 @@
     .scrollspy {
         display: flex;
         gap: 1rem;
-        background: rgba(0, 0, 0, 0.4);
+        background: linear-gradient(135deg, rgba(255, 255, 255, 0.10), rgba(255, 255, 255, 0.05));
+        mix-blend-mode: difference;
         padding: 0.8rem 1.5rem;
         border-radius: 3rem;
-        backdrop-filter: blur(20px);
     }
 
     #floating__nav a {
-        padding: 0.6rem;
+        padding: 0.45rem;
         border-radius: 50%;
         font-size: 1.3rem;
         color: white;
+        mix-blend-mode: difference;
         display: grid;
     }
 
     #floating__nav li.active a {
-        background: var(--color-primary);
+        background: linear-gradient(135deg, rgba(255, 255, 255, 0.30), rgba(255, 255, 255, 0.3));;
     }
 }

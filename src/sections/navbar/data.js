@@ -1,16 +1,12 @@
 
 const data = [
-    { id: 1, link: '#', title: 'Home' },
-    { id: 2, link: '#about', title: 'About' },
-    { id: 3, link: '#roles', title: 'Roles' },
-    { id: 4, link: '#projects', title: 'Projects' },
-    { id: 5, link: '#photography', title: 'Photography' },
-    { id: 6, link: '#contact', title: 'Contact' },
-    {
-        id: 7,
-        link: "https://www.freecodecamp.org/certification/Bee4Brendan/foundational-c-sharp-with-microsoft?fbclid=IwAR0Zb5i7qaop8ClE_n6NIGNLPfQURjMphLxWBQ0LqKS-EbqZ-isyTl2vf_Q",
-        title: "C# Cert",
-    }
+    { id: 1, link: "#", title: "Home" },
+    { id: 2, link: "#about", title: "About" },
+    { id: 3, link: "#skills", title: "Skills" },
+    { id: 4, link: "#roles", title: "Roles" },
+    { id: 5, link: "#projects", title: "Projects" },
+    { id: 6, link: "#photography", title: "Photography" },
+    { id: 7, link: "#contact", title: "Contact" },
 ];
 
     export default data;

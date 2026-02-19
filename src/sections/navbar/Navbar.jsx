@@ -14,14 +14,7 @@ const Navbar = () => {
                     <img src={Logo} alt="Logo" />
                 </a>
                 <ul className="nav__menu">
-                    {data.map((item) =>
-                        item.id === 7 ? (
-                            <li key={item.id}>
-                                <a href={item.link} target="_blank" rel="noopener noreferrer">
-                                    {item.title}
-                                </a>
-                            </li>
-                        ) : (
+                    {data.map((item) =>(
                             <li key={item.id}>
                                 <a href={item.link}>{item.title}</a>
                             </li>

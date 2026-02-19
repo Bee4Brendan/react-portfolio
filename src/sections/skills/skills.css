@@ -1,42 +1,33 @@
-.about__container {
+#skills .h2 {
+    padding-top: 3rem;
+}
+
+.skills__container {
     display: grid;
-    grid-template-columns: 35% 53%;
+    grid-template-columns: 100%;
     gap: 12%;
 }
 
-.about__portrait {
-    height: fit-content;
-    max-height: 40rem;
-    border: 0rem solid var(--color-white);
-    transition: var(--transition);
-
-    &:hover {
-        border: 0rem solid var(--color-black);
-        border-width: 2rem;
-        border-radius: 50%;
-    }
-}
-
-.about__cards {
+.skills__cards {
     margin: 1rem 0 1.5rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1.5rem;
 }
 
-.card.about__card {
+.card.skills__card {
     text-align: center;
     opacity: 0.85;
-    color: var(--color-black);
-    background: var(--color-light);
+    color: white;
 
     &:hover {
         box-shadow: 0 8px 24px rgba(0, 0, 0, 0.45);
-        border-color: var(--color-primary);
+        mix-blend-mode: difference;
+        border-color: var(--color-light);
     }
 }
 
-.about__card-icon {
+.skills__card-icon {
     font-size: 1.3rem;
     color: var(--color-black);
     border-radius: var(--border-radius-3);
@@ -48,43 +39,31 @@
     transition: var(--transition);
 }
 
-.card.about__card:hover .about__card-icon {
+.card.skills__card:hover .skills__card-icon {
     color: black;
     background: var(--color-primary);
 }
 
-.card.about__card:hover h5 {
+.card.skills__card:hover h5 {
     color: white;
     mix-blend-mode: difference;
 }
 
-.card.about__card h5 {
-    margin: 1rem 0;
-}
-
-.about__right p {
-    margin-bottom: 0.8rem;
-}
-
-.about__right .btn {
-    margin-top: 2.5rem;
-}
-
 /* MEDIA QUERIES (tablets) */
 @media screen and (max-width: 1024px) {
-    .about__left {
+    .skills__left {
         display: none;
     }
 
-    .about__container {
+    .skills__container {
         grid-template-columns: 1fr;
     }
 
-    .about__right h2 {
+    .skills__right h2 {
         text-align: center;
     }
 
-    .about__right .btn {
+    .skills__right .btn {
         margin-left: auto;
         margin-right: auto;
     }
@@ -92,12 +71,12 @@
 
 /* MEDIA QUERIES (phones) */
 @media screen and (max-width: 600px) {
-    .about__cards {
+    .skills__cards {
         grid-template-columns: 1fr 1fr;
         gap: 1rem;
     }
 
-    .about__right .btn {
+    .skills__right .btn {
         margin-top: 2rem;
         margin-left: auto;
         margin-right: auto;
