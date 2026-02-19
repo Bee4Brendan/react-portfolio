@@ -1,4 +1,4 @@
-import Logo from "../../assets/big-logo.svg";
+import Logo from "../../assets/logos/big-logo.svg";
 import contacts from "./data";
 import "./contact.css";
 

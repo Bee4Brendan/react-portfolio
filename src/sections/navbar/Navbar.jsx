@@ -1,4 +1,4 @@
-import Logo from "../../assets/small-logo.svg";
+import Logo from "../../assets/logos/small-logo.svg";
 import data from "./data";
 import { IoIosColorPalette } from "react-icons/io";
 import { useModalContext } from "../../context/modal-context";

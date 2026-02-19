@@ -1,5 +1,5 @@
-import AboutImage from '../../assets/Bee4Brendan.png'
-import Resume from '../../assets/brendansresume.pdf'
+import AboutImage from '../../assets/portraits/Bee4Brendan.png'
+import Resume from '../../assets/docs/brendansresume.pdf'
 import {HiDownload} from 'react-icons/hi'
 import data from './data'
 import Card from '../../components/Card'

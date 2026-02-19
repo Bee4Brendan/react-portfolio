@@ -5,7 +5,7 @@ header {
     place-items: center;
     background: var(--color-white);
     background-size: cover;
-    background-image: url("/src/assets/IMG_5847.jpg");
+    background-image: url("/src/assets/photography/waves.jpg");
     background-color: rgba(208, 231, 76, 0.6);
     transition: var(--transition);
 }
