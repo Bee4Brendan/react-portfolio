@@ -29,15 +29,12 @@
     margin-bottom: 0.7rem;
 }
 
-
-
 /* MEDIA QUERIES (tablets) */
 @media screen and (max-width: 1024px) {
     .services__container {
         gap: 1.5rem;
     }
 }
-
 
 /* MEDIA QUERIES (phones) */
 @media screen and (max-width: 600px) {

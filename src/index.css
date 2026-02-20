@@ -60,7 +60,7 @@ main.color-3 {
     --primary-hue: 167;
 }
 main.color-4 {
-    --primary-hue: 325;
+    --primary-hue: 287;
 }
 main.color-5 {
     --primary-hue: 40;
@@ -104,7 +104,7 @@ section > h2 {
     text-align: center;
 }
 
-section > p {
+section:not(#skills) > p {
     text-align: center;
     margin: 0.5rem auto 4rem;
     width: 40%;
@@ -303,7 +303,7 @@ img {
         padding: 8rem 0;
     }
 
-    section > p {
+    section:not(#skills) > p {
         width: 72%;
         margin-bottom: 3rem;
     }

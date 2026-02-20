@@ -8,6 +8,7 @@ import './about.css'
 const About = () => {
   return (
       <section id="about">
+        <h2>Brendan Bryan </h2>
           <div className="container about__container">
               <div className="about__left">
                   <div className="about__portrait">
@@ -15,8 +16,7 @@ const About = () => {
                   </div>
               </div>
               <div className="about__right">
-                  <h2>Brendan Bryan </h2>
-                  <div className="about__cards">
+                  <div className="about__cards" data-aos="fade-up" data-aos-duration="1200">
                       {data.map((item) => (
                           <Card key={item.id} className="about__card">
                               <span className="about__card-icon">{item.icon}</span>
