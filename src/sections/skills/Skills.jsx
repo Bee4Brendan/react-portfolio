@@ -3,7 +3,6 @@ import "./skills.css";
 import SkillCard from "../../components/SkillCard";
 
 const Skills = () => {
-
     return (
         <section id="skills">
             <h2>Skills</h2>
@@ -17,6 +16,15 @@ const Skills = () => {
                     </div>
                 </div>
                 <div className="skills__right" data-aos="fade-left" data-aos-duration="1200">
+                    <br />
+                    <p>
+                        My strengths lie in my visual-spatial abilities. They allow me to visualize different solutions to a problem
+                        and to create intuitive, user-friendly interfaces. I know what looks good, while taking the user's experience
+                        into account. From the logic to the aesthetics; from the front-end to the back-end; from the UI to the
+                        database; I have experience in all areas of software development. Front-End is where I thrive and where I want
+                        to focus my career.
+                    </p>
+                    <br />
                     <p>
                         In my decade long career as a Computer Scientist, I have accumulated experience with .NET, Android, Azure,
                         Bash, C, CSS, C#, C++, Eclipse, Git, Github, HTML, Java, JavaScript, Jira, Packer, PHP, ReactJS, SQL, TFS,
@@ -25,8 +33,7 @@ const Skills = () => {
                     <br />
                     <p>
                         I have designed, developed, and tested code for the Boeing E-3 Sentry <strong>AWACS</strong> as well as flight
-                        simulations for the Boeing E-6B Mercury <strong>TACAMO</strong> in just a few, short years. There is no part of
-                        the Software Development Life Cycle that I have not participated in.
+                        simulations for the Boeing E-6B Mercury <strong>TACAMO</strong>
                     </p>
                 </div>
             </div>

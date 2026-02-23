@@ -14,8 +14,8 @@ p {
 .skills__container {
     padding-top: 3rem;
     display: grid;
-    grid-template-columns: 44% 44%;
-    gap: 12%;
+    grid-template-columns: 46% 42%;
+    gap: 6%;
 }
 
 /* ====================| Ticker |======================== */

@@ -40,17 +40,34 @@
 }
 
 @keyframes playful-shake {
-  0%   { transform: rotate(0deg); }
-  25%  { transform: rotate(-5deg); }
-  50%  { transform: rotate(5deg); }
-  75%  { transform: rotate(-2deg); }
-  100% { transform: rotate(0deg); }
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(-5deg);
+    }
+    50% {
+        transform: rotate(5deg);
+    }
+    75% {
+        transform: rotate(-2deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
 }
-
 
 /* MEDIA QUERIES (phones) */
 @media screen and (max-width: 600px) {
     .contact__container {
         gap: 1.5rem;
+    }
+
+    .contact__logo {
+        filter: drop-shadow(0 0 15px rgba(255, 255, 255, 0.5));
+
+        &:hover {
+            filter: drop-shadow(0 0 15px var(--color-primary));
+        }
     }
 }

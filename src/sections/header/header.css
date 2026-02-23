@@ -10,7 +10,8 @@ header {
     transition: var(--transition);
 }
 
-#about, #roles {
+#about,
+#roles {
     padding-bottom: 13rem;
 }
 
@@ -139,7 +140,7 @@ div.header__profile img {
     white-space: nowrap;
     width: 100vw;
     height: 160vh;
-    top: -52%;
+    top: -10vh;
     left: -50%;
     pointer-events: none;
 }
@@ -150,18 +151,27 @@ div.header__profile img {
     font-size: 25px;
     font-weight: 300;
     mix-blend-mode: difference;
-    top: -20%;
-    animation: up-tick 60s linear infinite;
+    /* top: -20%; */
+    animation: up-tick 100s linear infinite;
 }
 
 @keyframes up-tick {
+    from {
+        transform: translateX(150%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+/* @keyframes up-tick {
     from {
         transform: rotate(45deg) translateX(150%);
     }
     to {
         transform: rotate(45deg) translateX(-50%);
     }
-}
+} */
 
 .down-ticker-wrap {
     position: absolute;
@@ -196,13 +206,20 @@ div.header__profile img {
     left: 0;
     display: flex;
     flex-direction: column;
-    border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 50px;
-    background: hsla(0, 100%, 100%, 0.1);
     mix-blend-mode: difference;
     padding: 2rem 1rem;
     gap: 1rem;
     transform: rotate(-45deg) translate(-15vw, 30vh);
+
+    /* Liquid Glass */
+    background: hsla(0, 100%, 100%, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(3px) saturate(180%);
+    -webkit-backdrop-filter: blur(3px) saturate(180%);
+    box-shadow:
+        0 10px 40px rgba(0, 0, 0, 0),
+        inset 0 2px 4px rgba(255, 255, 255, 0.3);
 }
 
 .header__socials a {
@@ -228,7 +245,9 @@ div.header__profile img {
         height: 15rem;
     }
 
-    #about, #roles, #skills {
+    #about,
+    #roles,
+    #skills {
         padding-top: 7rem;
     }
 
@@ -237,7 +256,7 @@ div.header__profile img {
     }
 
     .up-ticker-wrap {
-        top: -32%;
+        top: -4vh;
     }
 
     .down-ticker-wrap {
@@ -253,6 +272,7 @@ div.header__profile img {
 
     .up-ticker-wrap {
         top: -75%;
+        animation: up-tick 60s linear infinite;
     }
 
     .down-ticker-wrap {

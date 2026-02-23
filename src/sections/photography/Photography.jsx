@@ -14,7 +14,7 @@ import "./photography.css";
 const Testimonials = () => {
     return (
         <section id="photography">
-            <h2>Bee4Brendan Photography</h2>
+            <h2>Photography</h2>
             <p>Vision Is The Art Of Seeing What Is Invisible To Others</p>
             <div className="container">
                 <Swiper

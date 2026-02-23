@@ -44,17 +44,16 @@ const Header = () => {
                 <div className="header__profile" data-aos="fade-in">
                     <img src={HeaderImage} alt="Header Portait" />
                 </div>
-                {/* <h2 data-aos="flip-right">Brendan Bryan</h2> */}
                 <div>
                     <h2-typed ref={el}></h2-typed>
                 </div>
                 {/* <img style={{width: '150px'}} className="btn sm header__title" src={HeaderTitle} data-aos="flip-right" alt="Header Title"/> */}
-                <div className="streak" data-aos="slide-down" data-aos-duration="3000" data-aos-easing="ease-in-out"></div>
+                {/* <div className="streak" data-aos="slide-down" data-aos-duration="3000" data-aos-easing="ease-in-out"></div> */}
                 <p className="header-bio" data-aos="fade-up" data-aos-duration="1200">
                     As a Professional Computer Scientist with a passion for art, I am constantly striving to excel at melding those two
                     worlds. Coding and design are my forte, always with an Eye for detail. <br />
                 </p>
-                <div className="header__cta" data-aos="fade-up">
+                <div className="header__cta">
                     <a href="#contact" className="btn-header">
                         Let's Talk
                     </a>
@@ -62,16 +61,16 @@ const Header = () => {
                         My Work
                     </a>
                 </div>
-                <div className="up-ticker-wrap" data-aos="fade-in">
+                <div className="up-ticker-wrap">
                     <div className="up-ticker">
                         <span>@Bee4Brendan @Bee4Brendan @Bee4Brendan @Bee4Brendan @Bee4Brendan @Bee4Brendan @Bee4Brendan</span>
                     </div>
                 </div>
-                <div className="down-ticker-wrap">
+                {/* <div className="down-ticker-wrap">
                     <div className="down-ticker">
                         <span>@Bee4Brendan @Bee4Brendan @Bee4Brendan @Bee4Brendan @Bee4Brendan @Bee4Brendan @Bee4Brendan</span>
                     </div>
-                </div>
+                </div> */}
                 <div className="header__socials">
                     {data.map((item) => (
                         <a key={item.id} href={item.link} target="_blank" rel="noopener noreferrer">
