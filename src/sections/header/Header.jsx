@@ -44,7 +44,7 @@ const Header = () => {
                 <div className="header__profile" data-aos="fade-in">
                     <img src={HeaderImage} alt="Header Portait" />
                 </div>
-                <div>
+                <div className="h2-typed-div">
                     <h2-typed ref={el}></h2-typed>
                 </div>
                 {/* <img style={{width: '150px'}} className="btn sm header__title" src={HeaderTitle} data-aos="flip-right" alt="Header Title"/> */}
@@ -61,16 +61,6 @@ const Header = () => {
                         My Work
                     </a>
                 </div>
-                <div className="up-ticker-wrap">
-                    <div className="up-ticker">
-                        <span>@Bee4Brendan @Bee4Brendan @Bee4Brendan @Bee4Brendan @Bee4Brendan @Bee4Brendan @Bee4Brendan</span>
-                    </div>
-                </div>
-                {/* <div className="down-ticker-wrap">
-                    <div className="down-ticker">
-                        <span>@Bee4Brendan @Bee4Brendan @Bee4Brendan @Bee4Brendan @Bee4Brendan @Bee4Brendan @Bee4Brendan</span>
-                    </div>
-                </div> */}
                 <div className="header__socials">
                     {data.map((item) => (
                         <a key={item.id} href={item.link} target="_blank" rel="noopener noreferrer">
