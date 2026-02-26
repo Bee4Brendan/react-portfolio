@@ -277,11 +277,28 @@ img {
 .btn.primary {
     background: var(--color-primary);
     color: black;
+    opacity: 0.9;
     padding: 0.6rem 2.5rem;
     /* text color always white that's why i didn't use a variable color */
 }
 
 .btn.primary:hover {
+    background: black;
+    border-color: var(--color-primary);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.45);
+    color: var(--color-primary);
+}
+
+.btn.secondary {
+    background: white;
+    opacity: 0.9;
+    mix-blend-mode: difference;
+    color: black;
+    padding: 0.6rem 2.5rem;
+    /* text color always white that's why i didn't use a variable color */
+}
+
+.btn.secondary:hover {
     background: black;
     border-color: var(--color-primary);
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.45);

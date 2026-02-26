@@ -16,11 +16,10 @@ const Header = () => {
 
         const options = {
             strings: [
-                "Design Engineer",
-                "UI Developer",
                 "Front-End Web Developer",
                 "Software Developer",
-                "Back-End Web Developer",
+                "Design Engineer",
+                "UI Developer",
                 "Photographer",
             ],
             loop: true,
@@ -50,14 +49,17 @@ const Header = () => {
                 {/* <img style={{width: '150px'}} className="btn sm header__title" src={HeaderTitle} data-aos="flip-right" alt="Header Title"/> */}
                 {/* <div className="streak" data-aos="slide-down" data-aos-duration="3000" data-aos-easing="ease-in-out"></div> */}
                 <p className="header-bio" data-aos="fade-up" data-aos-duration="1200">
+                    Like a Spider, I weave Art into the Web. <br />
+                </p>
+                {/* <p className="header-bio" data-aos="fade-up" data-aos-duration="1200">
                     As a Professional Computer Scientist with a passion for art, I am constantly striving to excel at melding those two
                     worlds. Coding and design are my forte, always with an Eye for detail. <br />
-                </p>
+                </p> */}
                 <div className="header__cta">
-                    <a href="#contact" className="btn-header">
+                    <a href="#contact" className="btn primary">
                         Let's Talk
                     </a>
-                    <a href="#projects" className="btn-header">
+                    <a href="#projects" className="btn secondary">
                         My Work
                     </a>
                 </div>
