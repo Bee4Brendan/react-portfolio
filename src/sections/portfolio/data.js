@@ -1,25 +1,35 @@
-import Image1 from '../../assets/projects/project1.png'
-import Image2 from '../../assets/projects/project2.jpg'
-import Image3 from '../../assets/projects/project3.jpg'
-import Image4 from '../../assets/projects/project4.jpg'
-import Image5 from '../../assets/projects/project5.jpg'
-import Image6 from '../../assets/projects/project6.jpg'
-import Image7 from '../../assets/projects/project7.jpg'
-import Image8 from '../../assets/projects/project8.jpg'
-import Image9 from "../../assets/projects/project9.png"
+import Image1 from "../../assets/projects/project1.png";
+import Image2 from "../../assets/projects/project2.jpg";
+import Image3 from "../../assets/projects/project3.jpg";
+import Image4 from "../../assets/projects/project4.jpg";
+import Image5 from "../../assets/projects/project5.jpg";
+import Image6 from "../../assets/projects/project6.jpg";
+import Image7 from "../../assets/projects/project7.jpg";
+import Image8 from "../../assets/projects/project8.jpg";
+import Image9 from "../../assets/projects/project9.png";
+import Image10 from "../../assets/projects/project10.png";
 
 const data = [
     {
         id: 1,
         category: "Design",
+        image: Image10,
+        title: "Logo Design Hyperlapse",
+        desc: "A hyperlapse video of me redesigning my logo from Canva to Affinity. Also, the first time that I used Affinity. The logo has been adjusted since then. See if you can spot the difference!",
+        demo: "https://youtu.be/Dsq17U_7t3c?si=nDHLrjBAqsYFYk6e",
+        github: "",
+    },
+    {
+        id: 2,
+        category: "Design",
         image: Image9,
-        title: "Logo Design",
+        title: "Logo Design Progression",
         desc: "This is my vector logo design that I use for my website, videos, and projects. I used Canva and Affinity to create this logo, which is a stylized 'B' that represents my name and personal brand.",
         demo: "https://www.youtube.com/watch?v=8fBTbKLdVvY",
         github: "",
     },
     {
-        id: 2,
+        id: 3,
         category: "Mobile App",
         image: Image1,
         title: "OKC Thunder LINQ",
@@ -28,7 +38,7 @@ const data = [
         github: "https://github.com/Bee4Brendan/ThunderLINQ-MAUI",
     },
     {
-        id: 3,
+        id: 4,
         category: "Mobile Game",
         image: Image2,
         title: "Dungeon Crawler",
@@ -37,7 +47,7 @@ const data = [
         github: "https://github.com/bee4brendan",
     },
     {
-        id: 4,
+        id: 5,
         category: "Mobile App",
         image: Image3,
         title: "Contacts App",
@@ -46,7 +56,7 @@ const data = [
         github: "https://github.com/bee4brendan",
     },
     {
-        id: 5,
+        id: 6,
         category: "Mobile Game",
         image: Image4,
         title: "Cannot Stop",
@@ -55,7 +65,7 @@ const data = [
         github: "https://github.com/bee4brendan",
     },
     {
-        id: 6,
+        id: 7,
         category: "Mobile App",
         image: Image5,
         title: "Weather App",
@@ -64,7 +74,7 @@ const data = [
         github: "https://github.com/bee4brendan",
     },
     {
-        id: 7,
+        id: 8,
         category: "Mobile Game",
         image: Image6,
         title: "Baseball Number Game",
@@ -73,7 +83,7 @@ const data = [
         github: "https://github.com/bee4brendan",
     },
     {
-        id: 8,
+        id: 9,
         category: "Website",
         image: Image7,
         title: "Website Portfolio",
@@ -82,7 +92,7 @@ const data = [
         github: "https://github.com/Bee4Brendan/react-portfolio",
     },
     {
-        id: 9,
+        id: 10,
         category: "Robotics",
         image: Image8,
         title: "Lego Robot",
@@ -92,5 +102,4 @@ const data = [
     },
 ];
 
-
-export default data
+export default data;
