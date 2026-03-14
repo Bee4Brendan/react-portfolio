@@ -177,6 +177,13 @@ p.header-description{
   100% { width: var(--skill-level); }
 }
 
+/* MEDIA QUERIES (smaller monitor) */
+@media screen and (max-width: 1724px) {
+    .skills__card-icon {
+        width: 4rem;
+    }
+}
+
 /* MEDIA QUERIES (tablets) */
 @media screen and (max-width: 1024px) {
     .skills__right {
