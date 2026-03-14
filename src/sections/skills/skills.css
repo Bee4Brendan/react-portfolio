@@ -6,7 +6,7 @@ section > p {
     margin-bottom: 0;
 }
 
-p {
+p.header-description{
     margin-bottom: 0;
     text-align: center;
 }

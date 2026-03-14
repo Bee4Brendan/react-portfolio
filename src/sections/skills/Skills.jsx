@@ -6,9 +6,7 @@ const Skills = () => {
     return (
         <section id="skills">
             <h2>Skills</h2>
-            <p>Frontend artistry powered by modern engineering. These are my tools of choice and this is how my skills "stack" up.</p>
-            <p>These skills are not measured by how much of the skill I know, but how confident I am relative to the others.</p>
-            {/* <p>e.g. I spent the same amount</p> */}
+            <p className="header-description">Frontend artistry powered by modern engineering. These are my tools of choice and this is how my skills "stack" up.</p>
             <div className="container skills__container" data-aos="fade-up">
                 <div className="skills__left" data-aos="fade-right" data-aos-duration="1200">
                     <div className="skills__cards">
@@ -20,6 +18,11 @@ const Skills = () => {
                 <div className="skills__right" data-aos="fade-left" data-aos-duration="1200">
                     <br />
                     <p>
+                        i: These skills are not measured by how much of the skill I know, but how confident I am relative to the
+                        others. Years of experience include Professional, Project-Based, and Formal Learning
+                    </p>
+                    <br />
+                    <p>
                         My strengths lie in my visual-spatial and problem solving abilities. They allow me to visualize different
                         solutions to a problem and to create intuitive, user-friendly interfaces. I know what looks good, while taking
                         the user's experience into account. From the logic to the aesthetics; from the front-end to the back-end; from
@@ -27,12 +30,12 @@ const Skills = () => {
                         where I want to focus my career.
                     </p>
                     <br />
-                    <p>
+                    {/* <p>
                         In my decade long career as a Computer Scientist, I have accumulated experience with .NET, Android, Azure,
                         Bash, C, CSS, C#, C++, Eclipse, Entity (EF), Git, Github, HTML, Java, JavaScript, Jira, Packer, PHP, ReactJS,
                         Redux, SQL, TFS, TypeScript, Visual Studio, WPF, XML, XAML & More...
                     </p>
-                    <br />
+                    <br /> */}
                     <p>
                         I have designed, developed, and tested code for the Boeing E-3 Sentry <strong>AWACS</strong> as well as flight
                         simulations for the Boeing E-6B Mercury <strong>TACAMO</strong>
