@@ -1,6 +1,7 @@
 import data from "./data";
 import "./skills.css";
 import SkillCard from "../../components/SkillCard";
+//test 
 
 const Skills = () => {
     return (
