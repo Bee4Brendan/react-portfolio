@@ -224,7 +224,7 @@ img {
     border-radius: var(--border-radius-2);
     cursor: pointer;
 
-    /* Liquid Glass */
+    /* Liquid-Glass */
     background: hsla(0, 100%, 100%, 0.1);
     border: 1px solid rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(3px) saturate(180%);
