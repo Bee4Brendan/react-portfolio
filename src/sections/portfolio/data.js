@@ -9,11 +9,21 @@ import Image6 from "../../assets/projects/project6.jpg";
 import Image9 from "../../assets/projects/project9.png";
 import Image10 from "../../assets/projects/project10.png";
 import Image11 from "../../assets/projects/project11.png";
+import Image12 from "../../assets/projects/project12.png";
 
 const data = [
     {
         id: 1,
-        category: "Website",
+        category: "Design",
+        image: Image12,
+        title: "Golden Bee Hotel Web Design",
+        desc: "Practice exercise for my first web design using basic design principles like hierarchy, alignment, color theory, layout, audience, typography, and user experience",
+        demo: "https://www.youtube.com/watch?v=wCDXcpOzMcY",
+        link: "https://goldenbeehotel.my.canva.site/",
+    },
+    {
+        id: 2,
+        category: "Frontend",
         image: Image11,
         title: "Pricing Table",
         desc: "Mock of a Pricing Table to practice flexbox and design. Not a whole lot of time was spent on this. Just a quick draft to show off my CSS skills.",
@@ -21,7 +31,7 @@ const data = [
         github: "https://github.com/Bee4Brendan/flexbox-pricing-table",
     },
     {
-        id: 2,
+        id: 3,
         category: "Design",
         image: Image10,
         title: "Logo Design Hyperlapse",
@@ -30,7 +40,7 @@ const data = [
         github: "",
     },
     {
-        id: 3,
+        id: 4,
         category: "Design",
         image: Image9,
         title: "Logo Design Progression",
@@ -39,7 +49,7 @@ const data = [
         github: "",
     },
     {
-        id: 4,
+        id: 5,
         category: "Mobile App",
         image: Image1,
         title: "OKC Thunder LINQ",
@@ -48,7 +58,7 @@ const data = [
         github: "https://github.com/Bee4Brendan/ThunderLINQ-MAUI",
     },
     {
-        id: 5,
+        id: 6,
         category: "Mobile Game",
         image: Image2,
         title: "Dungeon Crawler",
@@ -57,7 +67,7 @@ const data = [
         github: "",
     },
     {
-        id: 6,
+        id: 7,
         category: "Mobile App",
         image: Image3,
         title: "Contacts App",
@@ -66,7 +76,7 @@ const data = [
         github: "",
     },
     {
-        id: 7,
+        id: 8,
         category: "Mobile Game",
         image: Image4,
         title: "Cannot Stop",
@@ -75,7 +85,7 @@ const data = [
         github: "",
     },
     {
-        id: 8,
+        id: 9,
         category: "Mobile App",
         image: Image5,
         title: "Weather App",
@@ -84,7 +94,7 @@ const data = [
         github: "",
     },
     {
-        id: 9,
+        id: 10,
         category: "Mobile Game",
         image: Image6,
         title: "Baseball Number Game",
